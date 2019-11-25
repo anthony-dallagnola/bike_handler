@@ -1,0 +1,1769 @@
+2019-11-25 19:12:59 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "17"
+  }
+}
+2019-11-25 19:12:59 [0] info: start req: POST /create{}
+2019-11-25 19:12:59 [0] info: body: {
+  "body": {
+    "bike": "Hello"
+  }
+}
+2019-11-25 19:12:59 [0] error: error creating new bike, { _error: err }{}
+2019-11-25 19:13:20 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "17"
+  }
+}
+2019-11-25 19:13:20 [0] info: start req: POST /create{}
+2019-11-25 19:13:20 [0] info: body: {
+  "body": {
+    "bike": "Hello"
+  }
+}
+2019-11-25 19:13:20 [0] error: error creating new bike, { _error: err }{}
+2019-11-25 19:13:32 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "17"
+  }
+}
+2019-11-25 19:13:32 [0] info: start req: POST /create{}
+2019-11-25 19:13:32 [0] info: body: {
+  "body": {
+    "bike": "Hello"
+  }
+}
+2019-11-25 19:13:32 [0] error: error creating new bike, { _error: err }{}
+2019-11-25 19:13:44 info: POST /create - - - - ms
+{}
+2019-11-25 19:13:53 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "17"
+  }
+}
+2019-11-25 19:13:53 [0] info: start req: POST /create{}
+2019-11-25 19:13:53 [0] info: body: {
+  "body": {
+    "bike": "Hello"
+  }
+}
+2019-11-25 19:13:53 [0] error: error creating new bike, { _error: err }{}
+2019-11-25 19:14:16 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "17"
+  }
+}
+2019-11-25 19:14:16 [0] info: start req: POST /create{}
+2019-11-25 19:14:16 [0] info: body: {
+  "body": {
+    "bike": "Hello"
+  }
+}
+2019-11-25 19:16:16 info: POST /create - - - - ms
+{}
+2019-11-25 19:18:48 error: POST /create 400 959 - 175.778 ms
+{}
+2019-11-25 19:19:10 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "46"
+  }
+}
+2019-11-25 19:19:10 [0] info: start req: POST /create{}
+2019-11-25 19:19:10 [0] info: body: {
+  "body": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457b6"
+  }
+}
+2019-11-25 19:19:10 [0] error: bike already existing{
+  "_error": "bike already existing"
+}
+2019-11-25 19:19:10 [0] error: error creating new bike, { _error: err }{}
+2019-11-25 19:19:34 info: POST /create - - - - ms
+{}
+2019-11-25 19:19:43 [1] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "46"
+  }
+}
+2019-11-25 19:19:43 [1] info: start req: POST /create{}
+2019-11-25 19:19:43 [1] info: body: {
+  "body": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457b8"
+  }
+}
+2019-11-25 19:20:44 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "46"
+  }
+}
+2019-11-25 19:20:44 [0] info: start req: POST /create{}
+2019-11-25 19:20:44 [0] info: body: {
+  "body": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457b6"
+  }
+}
+2019-11-25 19:20:44 [0] error: error creating new bike, { _error: err }{}
+2019-11-25 19:20:44 [0] error: POST /create 500 1332 - 174.366 ms
+{}
+2019-11-25 19:21:19 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "46"
+  }
+}
+2019-11-25 19:21:19 [0] info: start req: POST /create{}
+2019-11-25 19:21:19 [0] info: body: {
+  "body": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457b6"
+  }
+}
+2019-11-25 19:21:19 [0] error: error creating new bike, { _error: err }{}
+2019-11-25 19:21:20 [0] error: POST /create 500 1308 - 178.733 ms
+{}
+2019-11-25 19:21:24 [1] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "46"
+  }
+}
+2019-11-25 19:21:24 [1] info: start req: POST /create{}
+2019-11-25 19:21:24 [1] info: body: {
+  "body": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457b8"
+  }
+}
+2019-11-25 19:21:24 [1] error: error creating new bike, { _error: err }{}
+2019-11-25 19:21:24 [1] error: POST /create 500 1308 - 11.486 ms
+{}
+2019-11-25 19:21:58 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "46"
+  }
+}
+2019-11-25 19:21:58 [0] info: start req: POST /create{}
+2019-11-25 19:21:58 [0] info: body: {
+  "body": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457b8"
+  }
+}
+2019-11-25 19:21:58 [0] error: error creating new bike, { _error: err }{}
+2019-11-25 19:22:17 info: POST /create - - - - ms
+{}
+2019-11-25 19:22:18 [1] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "46"
+  }
+}
+2019-11-25 19:22:18 [1] info: start req: POST /create{}
+2019-11-25 19:22:18 [1] info: body: {
+  "body": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457b8"
+  }
+}
+2019-11-25 19:22:18 [1] error: error creating new bike, { _error: err }{}
+2019-11-25 19:22:26 info: POST /create - - - - ms
+{}
+2019-11-25 19:27:27 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "46"
+  }
+}
+2019-11-25 19:27:27 [0] info: start req: POST /create{}
+2019-11-25 19:27:27 [0] info: body: {
+  "body": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457b8"
+  }
+}
+2019-11-25 19:28:53 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "46"
+  }
+}
+2019-11-25 19:28:53 [0] info: start req: POST /create{}
+2019-11-25 19:28:53 [0] info: body: {
+  "body": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457b8"
+  }
+}
+2019-11-25 19:30:14 info: POST /create - - - - ms
+{}
+2019-11-25 19:30:15 [1] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "46"
+  }
+}
+2019-11-25 19:30:15 [1] info: start req: POST /create{}
+2019-11-25 19:30:15 [1] info: body: {
+  "body": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457b8"
+  }
+}
+2019-11-25 19:30:15 [1] error: bike already existing{
+  "_error": "bike already existing"
+}
+2019-11-25 19:30:15 [1] error: error creating new bike, { _error: err }{}
+2019-11-25 19:30:20 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "46"
+  }
+}
+2019-11-25 19:30:20 [0] info: start req: POST /create{}
+2019-11-25 19:30:20 [0] info: body: {
+  "body": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457b8"
+  }
+}
+2019-11-25 19:30:20 [0] error: bike already existing{
+  "_error": "bike already existing"
+}
+2019-11-25 19:30:20 [0] error: error creating new bike, { _error: err }{}
+2019-11-25 19:30:56 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "46"
+  }
+}
+2019-11-25 19:30:56 [0] info: start req: POST /create{}
+2019-11-25 19:30:56 [0] info: body: {
+  "body": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457b8"
+  }
+}
+2019-11-25 19:30:56 [0] error: bike already existing{
+  "_error": "bike already existing"
+}
+2019-11-25 19:30:56 [0] error: error creating new bike, { _error: err }{}
+2019-11-25 19:30:56 [0] error: POST /create 500 1308 - 180.028 ms
+{}
+2019-11-25 19:31:24 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "46"
+  }
+}
+2019-11-25 19:31:24 [0] info: start req: POST /create{}
+2019-11-25 19:31:24 [0] info: body: {
+  "body": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457b8"
+  }
+}
+2019-11-25 19:31:24 [0] error: bike already existing{
+  "_error": "bike already existing"
+}
+2019-11-25 19:31:24 [0] error: error creating new bike, { _error: err }{}
+2019-11-25 19:31:24 [0] error: POST /create 500 1308 - 368.565 ms
+{}
+2019-11-25 19:31:30 [1] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "46"
+  }
+}
+2019-11-25 19:31:30 [1] info: start req: POST /create{}
+2019-11-25 19:31:30 [1] info: body: {
+  "body": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457b9"
+  }
+}
+2019-11-25 19:32:01 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "46"
+  }
+}
+2019-11-25 19:32:01 [0] info: start req: POST /create{}
+2019-11-25 19:32:01 [0] info: body: {
+  "body": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457b9"
+  }
+}
+2019-11-25 19:32:01 [0] error: bike already existing{
+  "_error": "bike already existing"
+}
+2019-11-25 19:32:01 [0] error: error creating new bike, { _error: err }{}
+2019-11-25 19:32:01 [0] error: POST /create 500 1308 - 174.741 ms
+{}
+2019-11-25 19:32:05 [1] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "46"
+  }
+}
+2019-11-25 19:32:05 [1] info: start req: POST /create{}
+2019-11-25 19:32:05 [1] info: body: {
+  "body": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457bs"
+  }
+}
+2019-11-25 19:33:27 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "46"
+  }
+}
+2019-11-25 19:33:27 [0] info: start req: POST /create{}
+2019-11-25 19:33:27 [0] info: body: {
+  "body": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457bd"
+  }
+}
+2019-11-25 19:34:56 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "46"
+  }
+}
+2019-11-25 19:34:56 [0] info: start req: POST /create{}
+2019-11-25 19:34:56 [0] info: body: {
+  "body": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457bq"
+  }
+}
+2019-11-25 19:34:56 [0] error: error creating new bike, { _error: err }{}
+2019-11-25 19:34:56 [0] error: POST /create 500 1308 - 181.374 ms
+{}
+2019-11-25 19:35:49 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "46"
+  }
+}
+2019-11-25 19:35:49 [0] info: start req: POST /create{}
+2019-11-25 19:35:49 [0] info: body: {
+  "body": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457ba"
+  }
+}
+2019-11-25 19:35:49 [0] info: POST /create 200 - - 9.945 ms
+{}
+2019-11-25 19:36:42 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "46"
+  }
+}
+2019-11-25 19:36:42 [0] info: start req: POST /create{}
+2019-11-25 19:36:42 [0] info: body: {
+  "body": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457bm"
+  }
+}
+2019-11-25 19:37:21 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "47"
+  }
+}
+2019-11-25 19:37:21 [0] info: start req: POST /create{}
+2019-11-25 19:37:21 [0] info: body: {
+  "body": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457bms"
+  }
+}
+2019-11-25 19:37:31 info: POST /create - - - - ms
+{}
+2019-11-25 19:37:38 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "48"
+  }
+}
+2019-11-25 19:37:38 [0] info: start req: POST /create{}
+2019-11-25 19:37:38 [0] info: body: {
+  "body": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457bms4"
+  }
+}
+2019-11-25 19:37:38 [0] info: POST /create 200 - - 14.450 ms
+{}
+2019-11-25 19:37:44 [1] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "48"
+  }
+}
+2019-11-25 19:37:44 [1] info: start req: POST /create{}
+2019-11-25 19:37:44 [1] info: body: {
+  "body": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457bms4"
+  }
+}
+2019-11-25 19:37:44 [1] error: bike already existing{
+  "_error": "bike already existing"
+}
+2019-11-25 19:37:44 [1] error: POST /create 400 - - 2.378 ms
+{}
+2019-11-25 19:38:31 error: POST /create 400 959 - 181.506 ms
+{}
+2019-11-25 19:38:46 [2] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "170"
+  }
+}
+2019-11-25 19:38:46 [2] info: start req: POST /create{}
+2019-11-25 19:38:46 [2] info: body: {
+  "body": {
+    "id": "906bcbb6-8376-49a8-b085-93089b47fa10",
+    "name": "City Max",
+    "brand": "Devalon",
+    "year": 2017,
+    "motorType": "geared",
+    "type": "urban"
+  }
+}
+2019-11-25 19:38:46 [2] error: bike already existing{
+  "_error": "bike already existing"
+}
+2019-11-25 19:38:46 [2] error: POST /create 400 - - 2.177 ms
+{}
+2019-11-25 19:39:46 [3] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "160"
+  }
+}
+2019-11-25 19:39:46 [3] info: start req: POST /create{}
+2019-11-25 19:39:46 [3] info: body: {
+  "body": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457b0",
+    "name": "City Max V2",
+    "brand": "Devalon",
+    "year": 2022,
+    "motorType": "geared",
+    "type": "urban"
+  }
+}
+2019-11-25 19:39:46 [3] info: POST /create 200 - - 1.831 ms
+{}
+2019-11-25 19:43:13 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "48"
+  }
+}
+2019-11-25 19:43:13 [0] info: start req: POST /read{}
+2019-11-25 19:43:13 [0] info: body: {
+  "body": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457dz"
+  }
+}
+2019-11-25 19:43:19 info: POST /read - - - - ms
+{}
+2019-11-25 19:43:23 [1] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "48"
+  }
+}
+2019-11-25 19:43:23 [1] info: start req: POST /read{}
+2019-11-25 19:43:23 [1] info: body: {
+  "body": {
+    "id": "906bcbb6-8376-49a8-b085-93089b47fa10"
+  }
+}
+2019-11-25 19:44:40 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "48"
+  }
+}
+2019-11-25 19:44:40 [0] info: start req: POST /read{}
+2019-11-25 19:44:40 [0] info: body: {
+  "body": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457dz"
+  }
+}
+2019-11-25 19:44:40 [0] error: POST /read 400 - - 9.133 ms
+{}
+2019-11-25 19:44:47 [1] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "48"
+  }
+}
+2019-11-25 19:44:47 [1] info: start req: POST /read{}
+2019-11-25 19:44:47 [1] info: body: {
+  "body": {
+    "id": "906bcbb6-8376-49a8-b085-93089b47fa10"
+  }
+}
+2019-11-25 19:44:47 [1] info: POST /read 200 129 - 2.956 ms
+{}
+2019-11-25 19:46:52 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 19:46:52 [0] info: start req: POST /readAll{}
+2019-11-25 19:46:52 [0] error: error reading all bikes, { _error: err }{}
+2019-11-25 19:46:52 [0] error: POST /readAll 400 - - 6.955 ms
+{}
+2019-11-25 19:47:46 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "48"
+  }
+}
+2019-11-25 19:47:46 [0] info: start req: POST /read{}
+2019-11-25 19:47:46 [0] info: body: {
+  "body": {
+    "id": "906bcbb6-8376-49a8-b085-93089b47fa10"
+  }
+}
+2019-11-25 19:47:46 [0] error: POST /read 404 1233 - 170.215 ms
+{}
+2019-11-25 19:48:03 [1] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "48"
+  }
+}
+2019-11-25 19:48:03 [1] info: start req: GET /read{}
+2019-11-25 19:48:03 [1] info: body: {
+  "body": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457dz"
+  }
+}
+2019-11-25 19:48:03 [1] error: GET /read 400 - - 3.012 ms
+{}
+2019-11-25 19:48:08 [2] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "48"
+  }
+}
+2019-11-25 19:48:08 [2] info: start req: GET /read{}
+2019-11-25 19:48:08 [2] info: body: {
+  "body": {
+    "id": "906bcbb6-8376-49a8-b085-93089b47fa10"
+  }
+}
+2019-11-25 19:48:08 [2] error: GET /read 400 - - 1.694 ms
+{}
+2019-11-25 19:48:58 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "48"
+  }
+}
+2019-11-25 19:48:58 [0] info: start req: GET /read{}
+2019-11-25 19:48:58 [0] info: body: {
+  "body": {
+    "id": "906bcbb6-8376-49a8-b085-93089b47fa10"
+  }
+}
+2019-11-25 19:48:58 [0] error: GET /read 400 - - 20.223 ms
+{}
+2019-11-25 19:49:11 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "48"
+  }
+}
+2019-11-25 19:49:11 [0] info: start req: GET /read{}
+2019-11-25 19:49:11 [0] info: body: {
+  "body": {
+    "id": "906bcbb6-8376-49a8-b085-93089b47fa10"
+  }
+}
+2019-11-25 19:49:11 [0] error: GET /read 400 - - 10.560 ms
+{}
+2019-11-25 19:49:37 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "48"
+  }
+}
+2019-11-25 19:49:37 [0] info: start req: GET /read{}
+2019-11-25 19:49:37 [0] info: body: {
+  "body": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457dz"
+  }
+}
+2019-11-25 19:49:37 [0] error: GET /read 400 - - 10.436 ms
+{}
+2019-11-25 19:49:41 [1] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "48"
+  }
+}
+2019-11-25 19:49:41 [1] info: start req: GET /read{}
+2019-11-25 19:49:41 [1] info: body: {
+  "body": {
+    "id": "906bcbb6-8376-49a8-b085-93089b47fa10"
+  }
+}
+2019-11-25 19:49:41 [1] info: GET /read 200 129 - 5.549 ms
+{}
+2019-11-25 19:49:58 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "48"
+  }
+}
+2019-11-25 19:49:58 [0] info: start req: GET /read{}
+2019-11-25 19:49:58 [0] info: body: {
+  "body": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457dz"
+  }
+}
+2019-11-25 19:49:58 [0] error: GET /read 404 - - 22.050 ms
+{}
+2019-11-25 19:51:03 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "158"
+  }
+}
+2019-11-25 19:51:03 [0] info: start req: POST /create{}
+2019-11-25 19:51:03 [0] info: body: {
+  "body": {
+    "id": "906bcbb6-8376-49a8-b085-93089b47fa10",
+    "name": "City Max",
+    "brand": "Devalon",
+    "year": 2017,
+    "motorType": "geared",
+    "type": "urban"
+  }
+}
+2019-11-25 19:51:03 [0] error: bike already existing{
+  "_error": "bike already existing"
+}
+2019-11-25 19:51:03 [0] error: POST /create 400 - - 11.778 ms
+{}
+2019-11-25 19:51:08 [1] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "160"
+  }
+}
+2019-11-25 19:51:08 [1] info: start req: POST /create{}
+2019-11-25 19:51:08 [1] info: body: {
+  "body": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457b0",
+    "name": "City Max V2",
+    "brand": "Devalon",
+    "year": 2022,
+    "motorType": "geared",
+    "type": "urban"
+  }
+}
+2019-11-25 19:51:08 [1] info: POST /create 200 - - 2.174 ms
+{}
+2019-11-25 19:51:22 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "160"
+  }
+}
+2019-11-25 19:51:22 [0] info: start req: POST /create{}
+2019-11-25 19:51:22 [0] info: body: {
+  "body": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457b0",
+    "name": "City Max V2",
+    "brand": "Devalon",
+    "year": 2022,
+    "motorType": "geared",
+    "type": "urban"
+  }
+}
+2019-11-25 19:51:22 [0] info: POST /create 200 - - 10.036 ms
+{}
+2019-11-25 19:58:02 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "143"
+  }
+}
+2019-11-25 19:58:02 [0] info: start req: POST /update{}
+2019-11-25 19:58:02 [0] info: body: {
+  "body": {
+    "id": "906bcbb6-8376-49a8-b085-93089b47fa10",
+    "name": "City Max V3",
+    "brand": "Devalon",
+    "year": 2035,
+    "motorType": "trekking"
+  }
+}
+2019-11-25 19:58:02 [0] info: POST /update 200 119 - 16.577 ms
+{}
+2019-11-25 20:00:37 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:00:37 [0] info: start req: GET /read/7ef8e968-7d5b-4bbb-9779-5abe4de457dz{}
+2019-11-25 20:00:37 [0] error: GET /read/7ef8e968-7d5b-4bbb-9779-5abe4de457dz 404 - - 7.353 ms
+{}
+2019-11-25 20:00:53 [1] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:00:53 [1] info: start req: GET /read/906bcbb6-8376-49a8-b085-93089b47fa10{}
+2019-11-25 20:00:53 [1] error: GET /read/906bcbb6-8376-49a8-b085-93089b47fa10 404 - - 2.013 ms
+{}
+2019-11-25 20:01:30 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:01:30 [0] info: start req: GET /read/906bcbb6-8376-49a8-b085-93089b47fa10{}
+2019-11-25 20:01:30 [0] error: GET /read/906bcbb6-8376-49a8-b085-93089b47fa10 404 - - 5.116 ms
+{}
+2019-11-25 20:02:27 [1] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:02:27 [1] info: start req: GET /read{}
+2019-11-25 20:02:27 [1] info: query: {
+  "query": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457dz"
+  }
+}
+2019-11-25 20:02:27 [1] error: GET /read?id=7ef8e968-7d5b-4bbb-9779-5abe4de457dz 404 1233 - 211.063 ms
+{}
+2019-11-25 20:02:34 [2] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:02:34 [2] info: start req: GET /read{}
+2019-11-25 20:02:34 [2] info: query: {
+  "query": {
+    "id": "906bcbb6-8376-49a8-b085-93089b47fa10"
+  }
+}
+2019-11-25 20:02:34 [2] error: GET /read?id=906bcbb6-8376-49a8-b085-93089b47fa10 404 1233 - 9.785 ms
+{}
+2019-11-25 20:03:01 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:03:01 [0] info: start req: GET /read{}
+2019-11-25 20:03:01 [0] info: query: {
+  "query": {
+    "id": "906bcbb6-8376-49a8-b085-93089b47fa10"
+  }
+}
+2019-11-25 20:03:01 [0] error: GET /read?id=906bcbb6-8376-49a8-b085-93089b47fa10 404 1233 - 183.739 ms
+{}
+2019-11-25 20:03:38 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:03:38 [0] info: start req: GET /read{}
+2019-11-25 20:03:38 [0] info: query: {
+  "query": {
+    "id": "906bcbb6-8376-49a8-b085-93089b47fa10"
+  }
+}
+2019-11-25 20:03:38 [0] error: GET /read?id=906bcbb6-8376-49a8-b085-93089b47fa10 404 1233 - 182.691 ms
+{}
+2019-11-25 20:03:41 [1] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:03:41 [1] info: start req: GET /read{}
+2019-11-25 20:03:41 [1] info: query: {
+  "query": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457dz"
+  }
+}
+2019-11-25 20:03:41 [1] error: GET /read?id=7ef8e968-7d5b-4bbb-9779-5abe4de457dz 404 1233 - 11.009 ms
+{}
+2019-11-25 20:04:38 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:04:38 [0] info: start req: GET /read{}
+2019-11-25 20:04:38 [0] info: query: {
+  "query": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457dz"
+  }
+}
+2019-11-25 20:04:38 [0] error: GET /read?id=7ef8e968-7d5b-4bbb-9779-5abe4de457dz 404 1233 - 172.294 ms
+{}
+2019-11-25 20:05:04 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:05:04 [0] info: start req: GET /read{}
+2019-11-25 20:05:04 [0] info: query: {
+  "query": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457dz"
+  }
+}
+2019-11-25 20:05:04 [0] error: GET /read?id=7ef8e968-7d5b-4bbb-9779-5abe4de457dz 404 1233 - 165.655 ms
+{}
+2019-11-25 20:05:29 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:05:29 [0] info: start req: GET /read{}
+2019-11-25 20:05:29 [0] info: query: {
+  "query": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457dz"
+  }
+}
+2019-11-25 20:05:29 [0] error: GET /read?id=7ef8e968-7d5b-4bbb-9779-5abe4de457dz 404 1233 - 353.060 ms
+{}
+2019-11-25 20:05:31 [1] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:05:31 [1] info: start req: GET /read{}
+2019-11-25 20:05:31 [1] info: query: {
+  "query": {
+    "id": "906bcbb6-8376-49a8-b085-93089b47fa10"
+  }
+}
+2019-11-25 20:05:31 [1] error: GET /read?id=906bcbb6-8376-49a8-b085-93089b47fa10 404 1233 - 21.293 ms
+{}
+2019-11-25 20:06:05 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:06:05 [0] info: start req: GET /read{}
+2019-11-25 20:06:05 [0] info: query: {
+  "query": {
+    "id": "906bcbb6-8376-49a8-b085-93089b47fa10"
+  }
+}
+2019-11-25 20:06:05 [0] error: GET /read?id=906bcbb6-8376-49a8-b085-93089b47fa10 404 1233 - 287.049 ms
+{}
+2019-11-25 20:07:13 [1] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:07:13 [1] info: start req: GET /7ef8e968-7d5b-4bbb-9779-5abe4de457dz{}
+2019-11-25 20:07:13 [1] error: GET /7ef8e968-7d5b-4bbb-9779-5abe4de457dz 404 1233 - 18.589 ms
+{}
+2019-11-25 20:07:39 [2] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:07:39 [2] info: start req: GET /read/id=7ef8e968-7d5b-4bbb-9779-5abe4de457dz{}
+2019-11-25 20:07:39 [2] error: GET /read/id=7ef8e968-7d5b-4bbb-9779-5abe4de457dz 404 1233 - 13.602 ms
+{}
+2019-11-25 20:07:48 [3] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:07:48 [3] info: start req: GET /read{}
+2019-11-25 20:07:48 [3] info: query: {
+  "query": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457dz"
+  }
+}
+2019-11-25 20:07:48 [3] error: GET /read?id=7ef8e968-7d5b-4bbb-9779-5abe4de457dz 404 1233 - 10.873 ms
+{}
+2019-11-25 20:08:12 [4] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:08:12 [4] info: start req: GET /read{}
+2019-11-25 20:08:12 [4] info: query: {
+  "query": {
+    "id": "906bcbb6-8376-49a8-b085-93089b47fa10"
+  }
+}
+2019-11-25 20:08:12 [4] error: GET /read?id=906bcbb6-8376-49a8-b085-93089b47fa10 404 1233 - 9.922 ms
+{}
+2019-11-25 20:08:40 [5] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:08:40 [5] info: start req: GET /readAll{}
+2019-11-25 20:08:40 [5] error: GET /readAll 404 - - 3.028 ms
+{}
+2019-11-25 20:10:02 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:10:02 [0] info: start req: GET /readAll{}
+2019-11-25 20:10:02 [0] error: GET /readAll 404 1233 - 166.040 ms
+{}
+2019-11-25 20:10:04 [1] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:10:04 [1] info: start req: GET /read{}
+2019-11-25 20:10:04 [1] info: query: {
+  "query": {
+    "id": "906bcbb6-8376-49a8-b085-93089b47fa10"
+  }
+}
+2019-11-25 20:10:04 [1] error: GET /read?id=906bcbb6-8376-49a8-b085-93089b47fa10 404 1233 - 11.963 ms
+{}
+2019-11-25 20:10:09 [2] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:10:09 [2] info: start req: GET /read{}
+2019-11-25 20:10:09 [2] info: query: {
+  "query": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457dz"
+  }
+}
+2019-11-25 20:10:09 [2] error: GET /read?id=7ef8e968-7d5b-4bbb-9779-5abe4de457dz 404 1233 - 7.377 ms
+{}
+2019-11-25 20:11:04 [3] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:11:04 [3] info: start req: GET /read{}
+2019-11-25 20:11:04 [3] error: GET /read 404 1233 - 10.714 ms
+{}
+2019-11-25 20:11:18 [4] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:11:18 [4] info: start req: GET /read/{}
+2019-11-25 20:11:18 [4] info: query: {
+  "query": {
+    "id": "906bcbb6-8376-49a8-b085-93089b47fa10"
+  }
+}
+2019-11-25 20:11:18 [4] error: GET /read/?id=906bcbb6-8376-49a8-b085-93089b47fa10 404 1233 - 8.898 ms
+{}
+2019-11-25 20:11:34 [5] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:11:34 [5] info: start req: GET /read/1{}
+2019-11-25 20:11:34 [5] error: GET /read/1 404 - - 2.468 ms
+{}
+2019-11-25 20:11:48 [6] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:11:48 [6] info: start req: GET /read/906bcbb6-8376-49a8-b085-93089b47fa10{}
+2019-11-25 20:11:48 [6] error: GET /read/906bcbb6-8376-49a8-b085-93089b47fa10 404 - - 1.643 ms
+{}
+2019-11-25 20:11:58 [7] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:11:58 [7] info: start req: GET /read/906bcbb6-8376-49a8-b085-93089b47fa10{}
+2019-11-25 20:11:58 [7] error: GET /read/906bcbb6-8376-49a8-b085-93089b47fa10 404 - - 1.282 ms
+{}
+2019-11-25 20:12:34 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:12:34 [0] info: start req: GET /read{}
+2019-11-25 20:12:34 [0] info: query: {
+  "query": {
+    "id": "906bcbb6-8376-49a8-b085-93089b47fa10"
+  }
+}
+2019-11-25 20:12:35 [0] error: GET /read?id=906bcbb6-8376-49a8-b085-93089b47fa10 404 1233 - 173.014 ms
+{}
+2019-11-25 20:32:40 [1] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:32:40 [1] info: start req: GET /read/{}
+2019-11-25 20:32:40 [1] info: query: {
+  "query": {
+    "id": "906bcbb6-8376-49a8-b085-93089b47fa10"
+  }
+}
+2019-11-25 20:32:40 [1] error: GET /read/?id=906bcbb6-8376-49a8-b085-93089b47fa10 404 1233 - 11.437 ms
+{}
+2019-11-25 20:32:52 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:32:52 [0] info: start req: GET /read/{}
+2019-11-25 20:32:52 [0] info: query: {
+  "query": {
+    "id": "906bcbb6-8376-49a8-b085-93089b47fa10"
+  }
+}
+2019-11-25 20:32:52 [0] error: GET /read/?id=906bcbb6-8376-49a8-b085-93089b47fa10 404 1233 - 266.981 ms
+{}
+2019-11-25 20:35:28 [1] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:35:28 [1] info: start req: GET /read/906bcbb6-8376-49a8-b085-93089b47fa10{}
+2019-11-25 20:35:28 [1] error: GET /read/906bcbb6-8376-49a8-b085-93089b47fa10 404 - - 4.010 ms
+{}
+2019-11-25 20:35:51 [2] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:35:51 [2] info: start req: GET /read/{}
+2019-11-25 20:35:51 [2] info: query: {
+  "query": {
+    "id": "906bcbb6-8376-49a8-b085-93089b47fa10"
+  }
+}
+2019-11-25 20:35:51 [2] error: GET /read/?id=906bcbb6-8376-49a8-b085-93089b47fa10 404 1233 - 16.012 ms
+{}
+2019-11-25 20:36:11 [3] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:36:11 [3] info: start req: GET /read/906bcbb6-8376-49a8-b085-93089b47fa10{}
+2019-11-25 20:36:11 [3] error: GET /read/906bcbb6-8376-49a8-b085-93089b47fa10 404 - - 1.960 ms
+{}
+2019-11-25 20:36:30 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:36:30 [0] info: start req: GET /read/906bcbb6-8376-49a8-b085-93089b47fa10{}
+2019-11-25 20:36:30 [0] error: GET /read/906bcbb6-8376-49a8-b085-93089b47fa10 404 - - 7.469 ms
+{}
+2019-11-25 20:36:58 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:36:58 [0] info: start req: GET /read/906bcbb6-8376-49a8-b085-93089b47fa10{}
+2019-11-25 20:36:58 [0] info: GET /read/906bcbb6-8376-49a8-b085-93089b47fa10 200 134 - 5.737 ms
+{}
+2019-11-25 20:37:18 [1] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:37:18 [1] info: start req: GET /read/7ef8e968-7d5b-4bbb-9779-5abe4de457dz{}
+2019-11-25 20:37:18 [1] error: GET /read/7ef8e968-7d5b-4bbb-9779-5abe4de457dz 404 - - 1.535 ms
+{}
+2019-11-25 20:38:03 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:38:03 [0] info: start req: GET /read/7ef8e968-7d5b-4bbb-9779-5abe4de457dz{}
+2019-11-25 20:38:03 [0] error: bike does
+t exist{
+  "_error": "bike doesn't exist"
+}
+2019-11-25 20:38:03 [0] error: GET /read/7ef8e968-7d5b-4bbb-9779-5abe4de457dz 404 - - 5.006 ms
+{}
+2019-11-25 20:38:15 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:38:15 [0] info: start req: GET /read/7ef8e968-7d5b-4bbb-9779-5abe4de457dz{}
+2019-11-25 20:38:15 [0] error: bike does	 exist{
+  "_error": "bike doesn't exist"
+}
+2019-11-25 20:38:15 [0] error: GET /read/7ef8e968-7d5b-4bbb-9779-5abe4de457dz 404 - - 5.641 ms
+{}
+2019-11-25 20:38:28 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:38:28 [0] info: start req: GET /read/7ef8e968-7d5b-4bbb-9779-5abe4de457dz{}
+2019-11-25 20:38:28 [0] error: bike doesn't exist{
+  "_error": "bike doesn't exist"
+}
+2019-11-25 20:38:28 [0] error: GET /read/7ef8e968-7d5b-4bbb-9779-5abe4de457dz 404 - - 5.899 ms
+{}
+2019-11-25 20:38:46 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:38:46 [0] info: start req: GET /read/7ef8e968-7d5b-4bbb-9779-5abe4de457dz{}
+2019-11-25 20:38:46 [0] error: bike doesn't exist{
+  "_error": "bike doesn't exist"
+}
+2019-11-25 20:38:46 [0] error: GET /read/7ef8e968-7d5b-4bbb-9779-5abe4de457dz 404 - - 5.696 ms
+{}
+2019-11-25 20:38:48 [1] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:38:48 [1] info: start req: GET /read/906bcbb6-8376-49a8-b085-93089b47fa10{}
+2019-11-25 20:38:48 [1] info: GET /read/906bcbb6-8376-49a8-b085-93089b47fa10 200 134 - 2.709 ms
+{}
+2019-11-25 20:39:00 [2] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:39:00 [2] info: start req: GET /readAll{}
+2019-11-25 20:39:00 [2] error: GET /readAll 404 1233 - 178.469 ms
+{}
+2019-11-25 20:39:07 [3] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:39:07 [3] info: start req: GET /readAll{}
+2019-11-25 20:39:07 [3] error: GET /readAll 404 1233 - 10.843 ms
+{}
+2019-11-25 20:39:23 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:39:23 [0] info: start req: GET /readAll{}
+2019-11-25 20:39:23 [0] info: GET /readAll 200 722 - 4.980 ms
+{}
+2019-11-25 20:42:56 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:42:56 [0] info: start req: GET /delete/cfc47736-9a27-4dbe-9d65{}
+2019-11-25 20:42:57 [0] error: GET /delete/cfc47736-9a27-4dbe-9d65 404 1233 - 371.148 ms
+{}
+2019-11-25 20:43:09 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:43:09 [0] info: start req: GET /delete/cfc47736-9a27-4dbe-9d65{}
+2019-11-25 20:43:09 [0] error: GET /delete/cfc47736-9a27-4dbe-9d65 404 1233 - 164.721 ms
+{}
+2019-11-25 20:43:55 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:43:55 [0] info: start req: GET /delete/cfc47736-9a27-4dbe-9d65{}
+2019-11-25 20:43:56 [0] error: GET /delete/cfc47736-9a27-4dbe-9d65 404 1233 - 343.990 ms
+{}
+2019-11-25 20:45:04 [1] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:45:04 [1] info: start req: GET /delete/cfc47736-9a27-4dbe-9d65{}
+2019-11-25 20:45:04 [1] error: GET /delete/cfc47736-9a27-4dbe-9d65 404 1233 - 20.936 ms
+{}
+2019-11-25 20:45:16 [2] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:45:16 [2] info: start req: GET /delete{}
+2019-11-25 20:45:16 [2] info: query: {
+  "query": {
+    "id": "cfc47736-9a27-4dbe-9d65"
+  }
+}
+2019-11-25 20:45:16 [2] error: GET /delete?id=cfc47736-9a27-4dbe-9d65 404 1233 - 14.636 ms
+{}
+2019-11-25 20:45:31 [3] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:45:31 [3] info: start req: GET /read/906bcbb6-8376-49a8-b085-93089b47fa10{}
+2019-11-25 20:45:31 [3] info: GET /read/906bcbb6-8376-49a8-b085-93089b47fa10 200 134 - 1.647 ms
+{}
+2019-11-25 20:45:55 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:45:55 [0] info: start req: GET /delete/cfc47736-9a27-4dbe-9d65{}
+2019-11-25 20:45:55 [0] error: GET /delete/cfc47736-9a27-4dbe-9d65 404 1233 - 164.532 ms
+{}
+2019-11-25 20:47:02 [1] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:47:02 [1] info: start req: DELETE /delete/cfc47736-9a27-4dbe-9d65{}
+2019-11-25 20:47:02 [1] error: bike doesn't exist{
+  "_error": "bike doesn't exist"
+}
+2019-11-25 20:47:02 [1] error: DELETE /delete/cfc47736-9a27-4dbe-9d65 404 - - 2.620 ms
+{}
+2019-11-25 20:47:07 [2] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:47:07 [2] info: start req: DELETE /delete/cfc47736-9a27-4dbe-9d65-2055aced6aef{}
+2019-11-25 20:47:07 [2] error: bike doesn't exist{
+  "_error": "bike doesn't exist"
+}
+2019-11-25 20:47:07 [2] error: DELETE /delete/cfc47736-9a27-4dbe-9d65-2055aced6aef 404 - - 1.449 ms
+{}
+2019-11-25 20:47:37 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:47:37 [0] info: start req: DELETE /delete/cfc47736-9a27-4dbe-9d65-2055aced6aef{}
+2019-11-25 20:47:37 [0] error: bike doesn't exist{
+  "_error": "bike doesn't exist"
+}
+2019-11-25 20:47:37 [0] error: DELETE /delete/cfc47736-9a27-4dbe-9d65-2055aced6aef 404 - - 11.299 ms
+{}
+2019-11-25 20:47:57 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:47:57 [0] info: start req: DELETE /delete/cfc47736-9a27-4dbe-9d65-2055aced6aef{}
+2019-11-25 20:47:57 [0] info: DELETE /delete/cfc47736-9a27-4dbe-9d65-2055aced6aef 200 - - 4.169 ms
+{}
+2019-11-25 20:50:56 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "143"
+  }
+}
+2019-11-25 20:50:56 [0] info: start req: PATCH /update{}
+2019-11-25 20:50:56 [0] info: body: {
+  "body": {
+    "id": "906bcbb6-8376-49a8-b085-93089b47fa10",
+    "name": "City Max V3",
+    "brand": "Devalon",
+    "year": 2035,
+    "motorType": "trekking"
+  }
+}
+2019-11-25 20:50:56 [0] info: PATCH /update 200 119 - 10.578 ms
+{}
+2019-11-25 20:53:06 error: file couldn't be copied{}
+2019-11-25 20:53:18 error: file couldn't be copied{
+  "_error": null
+}
+2019-11-25 20:53:29 error: file couldn't be copied{
+  "_error": null
+}
+2019-11-25 20:54:30 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "158"
+  }
+}
+2019-11-25 20:54:30 [0] info: start req: POST /create{}
+2019-11-25 20:54:30 [0] info: body: {
+  "body": {
+    "id": "906bcbb6-8376-49a8-b085-93089b47fa10",
+    "name": "City Max",
+    "brand": "Devalon",
+    "year": 2017,
+    "motorType": "geared",
+    "type": "urban"
+  }
+}
+2019-11-25 20:54:30 [0] error: bike already existing{
+  "_error": "bike already existing"
+}
+2019-11-25 20:54:30 [0] error: POST /create 400 - - 9.706 ms
+{}
+2019-11-25 20:54:49 [1] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "158"
+  }
+}
+2019-11-25 20:54:49 [1] info: start req: POST /create{}
+2019-11-25 20:54:49 [1] info: body: {
+  "body": {
+    "id": "906bcbb6-8376-49a8-b085-93089b47fa10",
+    "name": "City Max",
+    "brand": "Devalon",
+    "year": 2017,
+    "motorType": "geared",
+    "type": "urban"
+  }
+}
+2019-11-25 20:54:49 [1] error: bike already existing{
+  "_error": "bike already existing"
+}
+2019-11-25 20:54:49 [1] error: POST /create 400 - - 1.844 ms
+{}
+2019-11-25 20:55:00 [0] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "158"
+  }
+}
+2019-11-25 20:55:00 [0] info: start req: POST /create{}
+2019-11-25 20:55:00 [0] info: body: {
+  "body": {
+    "id": "906bcbb6-8376-49a8-b085-93089b47fa10",
+    "name": "City Max",
+    "brand": "Devalon",
+    "year": 2017,
+    "motorType": "geared",
+    "type": "urban"
+  }
+}
+2019-11-25 20:55:00 [0] error: bike already existing{
+  "_error": "bike already existing"
+}
+2019-11-25 20:55:00 [0] error: POST /create 400 - - 10.104 ms
+{}
+2019-11-25 20:55:21 [1] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "160"
+  }
+}
+2019-11-25 20:55:21 [1] info: start req: POST /create{}
+2019-11-25 20:55:21 [1] info: body: {
+  "body": {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457b0",
+    "name": "City Max V2",
+    "brand": "Devalon",
+    "year": 2022,
+    "motorType": "geared",
+    "type": "urban"
+  }
+}
+2019-11-25 20:55:21 [1] info: POST /create 200 - - 1.843 ms
+{}
+2019-11-25 20:55:32 [2] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:55:32 [2] info: start req: GET /read/7ef8e968-7d5b-4bbb-9779-5abe4de457dz{}
+2019-11-25 20:55:32 [2] error: bike doesn't exist{
+  "_error": "bike doesn't exist"
+}
+2019-11-25 20:55:32 [2] error: GET /read/7ef8e968-7d5b-4bbb-9779-5abe4de457dz 404 - - 3.524 ms
+{}
+2019-11-25 20:55:36 [3] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:55:36 [3] info: start req: GET /read/906bcbb6-8376-49a8-b085-93089b47fa10{}
+2019-11-25 20:55:36 [3] info: GET /read/906bcbb6-8376-49a8-b085-93089b47fa10 200 129 - 1.734 ms
+{}
+2019-11-25 20:55:40 [4] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:55:40 [4] info: start req: GET /readAll{}
+2019-11-25 20:55:40 [4] info: GET /readAll 200 850 - 1.758 ms
+{}
+2019-11-25 20:55:45 [5] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json",
+    "content-length": "143"
+  }
+}
+2019-11-25 20:55:45 [5] info: start req: PATCH /update{}
+2019-11-25 20:55:45 [5] info: body: {
+  "body": {
+    "id": "906bcbb6-8376-49a8-b085-93089b47fa10",
+    "name": "City Max V3",
+    "brand": "Devalon",
+    "year": 2035,
+    "motorType": "trekking"
+  }
+}
+2019-11-25 20:55:45 [5] info: PATCH /update 200 119 - 2.008 ms
+{}
+2019-11-25 20:55:56 [6] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:55:56 [6] info: start req: DELETE /delete/cfc47736-9a27-4dbe-9d65{}
+2019-11-25 20:55:56 [6] error: bike doesn't exist{
+  "_error": "bike doesn't exist"
+}
+2019-11-25 20:55:56 [6] error: DELETE /delete/cfc47736-9a27-4dbe-9d65 404 - - 2.145 ms
+{}
+2019-11-25 20:56:00 [7] info: headers: {
+  "headers": {
+    "host": "localhost:3000",
+    "user-agent": "curl/7.58.0",
+    "accept": "*/*",
+    "content-type": "application/json"
+  }
+}
+2019-11-25 20:56:00 [7] info: start req: DELETE /delete/cfc47736-9a27-4dbe-9d65-2055aced6aef{}
+2019-11-25 20:56:00 [7] info: DELETE /delete/cfc47736-9a27-4dbe-9d65-2055aced6aef 200 - - 1.220 ms
+{}

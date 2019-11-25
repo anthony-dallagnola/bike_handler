@@ -1,0 +1,47 @@
+[
+  {
+    "id": "87beff15-ba80-4449-b9a3-36f0881a1c22",
+    "name": "S Works",
+    "brand": "Specialized",
+    "year": 2019,
+    "type": "racing"
+  },
+  {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457b6",
+    "name": "Velis",
+    "brand": "Velis",
+    "year": 2017,
+    "motorType": "directDrive",
+    "type": "trekking"
+  },
+  {
+    "id": "906bcbb6-8376-49a8-b085-93089b47fa10",
+    "name": "City Max V3",
+    "brand": "Devalon",
+    "year": 2035,
+    "motorType": "trekking",
+    "type": "urban"
+  },
+  {
+    "id": "31798a9a-9cfc-4c8e-9953-e557e53e1953",
+    "name": "Brompton",
+    "brand": "Brompton",
+    "year": 2018,
+    "type": "folding"
+  },
+  {
+    "id": "01228c19-e4aa-4859-84ce-210a9803148f",
+    "name": "Macina cross 9",
+    "brand": "KTM",
+    "year": 2014,
+    "type": "midDrive"
+  },
+  {
+    "id": "7ef8e968-7d5b-4bbb-9779-5abe4de457b0",
+    "name": "City Max V2",
+    "brand": "Devalon",
+    "year": 2022,
+    "motorType": "geared",
+    "type": "urban"
+  }
+]

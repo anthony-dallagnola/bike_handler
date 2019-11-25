@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 7
+    },
+    "auditLog": "logs/.3347dca5a940288636fb554eb84ed859a849efb6-audit.json",
+    "files": [
+        {
+            "date": 1574705417390,
+            "name": "logs/2019-11-25-verbose.log",
+            "hash": "108fd530f88128eeb4fd0d4eb3b87e3f"
+        }
+    ]
+}
