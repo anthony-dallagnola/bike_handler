@@ -10,31 +10,17 @@ const DATE_FORMAT = 'YYYY-MM-DD HH:mm:ss'; // ZZ
 if (NODE_ENV !== 'test') {
 
   function formatMomentDates(object) {
-    // console.log('object: ' + util.inspect(object, false, null));
-    // console.log('is object: ' + (typeof object === 'object'));
-    // logObject(object);
     if (object != null && typeof object === 'object') {
-      // console.log('object: ', object);
       for (var i = 0; i < Object.keys(object).length; i++) {
         var valueTemp = object[Object.keys(object)[i]];
-        // console.log('meta: ' + valueTemp);
         if (valueTemp != null && typeof valueTemp === 'object' && valueTemp._isAMomentObject) {
-          // console.log(valueTemp);
-          // if(valueTemp instanceof moment) {
-          // console.log('moment');
           object[Object.keys(object)[i]] = moment(valueTemp._d).format();
         } else {
-          // console.log('not moment, call nested object');
           formatMomentDates(object[Object.keys(object)[i]]);
-          // object[Object.keys(object)[i]] = formatMomentDates(valueTemp);
-          // meta += JSON.stringify(metaTemp, null, 2);
         }
-        // var field = options.meta[];
-        // if()
       }
     } else {
       return object;
-      // meta = '';
     }
   }
   const enumerateErrorFormat = winston.format(info => {
@@ -58,7 +44,6 @@ if (NODE_ENV !== 'test') {
         seenObjects.push(obj);
         for (var key in obj) {
           if (obj.hasOwnProperty && obj.hasOwnProperty(key) && detect(obj[key])) {
-            // console.log(obj, 'cycle at ' + key);
             return true;
           }
         }
@@ -88,7 +73,6 @@ if (NODE_ENV !== 'test') {
     let reqId = httpContext.get('reqId');
     reqId = typeof reqId !== 'undefined' ? ' [' + reqId + ']' : '';
 
-    // console.log('args: ' + JSON.stringify(args, null, 2));
     let payload;
     if (!isCyclic(args)) {
       if (!info._error instanceof Error) {
@@ -96,12 +80,8 @@ if (NODE_ENV !== 'test') {
       }
       payload = JSON.stringify(args, null, 2);
     } else {
-      // console.log('cyclic');
       if (Object.keys(args).length) {
-        // console.log('args: ', args);
-        // payload = JSON.stringify(args, null, 2).replace(/\\n/g, '\n');
         payload = JSON.stringify(args, getCircularReplacer(), 2);
-        // console.log('payload: ', payload);
       }
     }
     payload = payload.replace(/\\n/g, '\n  ');
@@ -114,11 +94,9 @@ if (NODE_ENV !== 'test') {
     } else {
       newMessage = `${timestamp}${reqId} ${level}: ${message}`;
     }
-    // let payload = Object.keys(args).length ? JSON.stringify(args, getCircularReplacer).replace(/\\n/g, '\n') : '';
     return {
       message: newMessage,
       payload
-      // payload: Object.keys(args).length ? JSON.stringify(args, getCircularReplacer, 2).replace(/\\n/g, '\n') : ''
     }
 
   });
@@ -216,5 +194,4 @@ if (NODE_ENV !== 'test') {
 
 module.exports = {
   logger
-  // sendinblueLogger,
 }

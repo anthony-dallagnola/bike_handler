@@ -1,5 +1,5 @@
 const fs = require('fs');
-const { HTTP, FILE, FIELDS, ENCODING, ERRORS, REGEXP, TYPES } = require('../config/constants');
+const { HTTP, FILE, FIELDS, ENCODING, ERRORS, REGEXP } = require('../config/constants');
 const { generateUUID } = require('../config/functions');
 
 /**

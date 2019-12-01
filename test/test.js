@@ -7,7 +7,7 @@ const should = chai.should();
 const assert = chai.assert;
 
 const fs = require('fs');
-const { HTTP, FILE, ENCODING, ERRORS, REGEXP, TYPES } = require('../config/constants');
+const { HTTP, FILE, ENCODING, ERRORS, REGEXP } = require('../config/constants');
 
 let getDatabase = () => JSON.parse(fs.readFileSync(FILE.PATH, ENCODING.UTF8));
 

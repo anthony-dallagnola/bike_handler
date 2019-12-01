@@ -1,8 +1,5 @@
 function generateUUID() {
   var seed = Date.now();
-  // if (window.performance && typeof window.performance.now === "function") {
-    // seed += performance.now();
-  // }
 
   var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
     var r = (seed + Math.random() * 16) % 16 | 0;

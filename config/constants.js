@@ -77,12 +77,6 @@ const ERRORS = {
   ]
 }
 
-const TYPES = {
-  ERROR: {
-    CODE: 'error-code',
-    MESSAGE: 'error-message'
-  }
-}
 
 module.exports = {
   HTTP,
@@ -90,6 +84,5 @@ module.exports = {
   FIELDS,
   ENCODING,
   ERRORS,
-  REGEXP,
-  TYPES
+  REGEXP
 } 
