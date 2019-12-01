@@ -1,3 +1,6 @@
 package-lock.json
 node_modules/
 DB/bikesdatabase.json
+logs/
+public/apidoc/api_project.js
+public/apidoc/api_project.json

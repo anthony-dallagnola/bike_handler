@@ -1,10 +1,10 @@
 [
   {
     "id": "cfc47736-9a27-4dbe-9d65-2055aced6aef",
-    "name": "The best",
-    "brand": "KTM",
-    "year": 2019,
-    "type": "mountain"
+    "name": "Audacio 400",
+    "brand": "Lapierre",
+    "year": 2014,
+    "type": "racing"
   },
   {
     "id": "87beff15-ba80-4449-b9a3-36f0881a1c22",
@@ -37,11 +37,10 @@
     "type": "folding"
   },
   {
-    "id": "0535bfef-3e7a-4f39-0610-3ded5083f29c",
-    "name": "The best",
+    "id": "01228c19-e4aa-4859-84ce-210a9803148f",
+    "name": "Macina cross 9",
     "brand": "KTM",
-    "year": 2019,
-    "motorType": "Great",
-    "type": "mountain"
+    "year": 2014,
+    "type": "midDrive"
   }
 ]
