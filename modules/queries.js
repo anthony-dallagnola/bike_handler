@@ -67,6 +67,7 @@ function createBike(req, res, next) {
     // check that we don't have unwanted fields
     for(var key in req.body.bike) {
       if (!FIELDS.includes(key)) {
+        // extra parameters
         throw { customError: ERRORS.CREATE[0] };
       }
     }
@@ -86,6 +87,7 @@ function createBike(req, res, next) {
     // reorder bike with id first
     bike = {id:generateUUID(), ...bike};
     data.push(bike);
+    // rewrite the file
     fs.writeFileSync(FILE.PATH, JSON.stringify(data, undefined, 2), ENCODING.UTF8, err => {
       if(err) {
         return res.status(HTTP.INTERNAL_ERROR).end();
@@ -148,6 +150,7 @@ function createBike(req, res, next) {
 function getBike(req, res, next) {
   try {
     if(!REGEXP.UUID.test(req.query.id)) {
+      // id wrong format
       throw { customError: ERRORS.READ[0] };
     }
     let data = JSON.parse(fs.readFileSync(FILE.PATH, ENCODING.UTF8));
@@ -155,6 +158,7 @@ function getBike(req, res, next) {
     if(typeof bike !== 'undefined') {
       res.status(HTTP.OK).json(bike);
     } else {
+      // bike not found
       throw { customError: ERRORS.READ[1] };
     }
   } 
@@ -283,10 +287,12 @@ function updateBike(req, res, next) {
   try {
     for (var key in req.body.bike) {
       if (!FIELDS.includes(key)) {
+        // extra parameters
         throw { customError: ERRORS.UPDATE[0] };
       }
     }
     if (!REGEXP.UUID.test(req.body.id)) {
+      // id wrong format
       throw { customError: ERRORS.UPDATE[1] };
     }
     let data = JSON.parse(fs.readFileSync(FILE.PATH, ENCODING.UTF8));
@@ -366,13 +372,15 @@ function updateBike(req, res, next) {
 function deleteBike(req, res, next) {
   try {
     if (!REGEXP.UUID.test(req.params.id)) {
+      // id wrong format
       throw { customError: ERRORS.DELETE[0] };
     }
     let data = JSON.parse(fs.readFileSync(FILE.PATH, ENCODING.UTF8));
     let bikeIndex = data.findIndex(e => e.id === req.params.id);
     if (bikeIndex !== -1) {
       let bike = data[bikeIndex];
-      data.splice(bikeIndex, 1)
+      // delete the bike from the list of bikes
+      data.splice(bikeIndex, 1);
       fs.writeFileSync(FILE.PATH, JSON.stringify(data, undefined, 2), ENCODING.UTF8, err => {
         if (err) {
           logger.error('problem updating to file', { _error: 'problem writing to file' })
@@ -381,6 +389,7 @@ function deleteBike(req, res, next) {
       })
       res.status(HTTP.OK).json({bike});
     } else {
+      // bike not found
       throw { customError: ERRORS.DELETE[1] };
     }
   }

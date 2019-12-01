@@ -88,6 +88,7 @@ describe('/POST create bike', () => {
         res.body.bike.should.include.all.keys(['id', 'name', 'brand', 'year', 'type']);
         assert.equal(REGEXP.UUID.test(res.body.bike.id), true, 'Id is not uuid conform')
 
+        // test parameters types
         res.body.bike.name.should.be.a('string');
         res.body.bike.brand.should.be.a('string');
         res.body.bike.year.should.be.a('number');
@@ -181,6 +182,7 @@ describe('/PATCH update bike', () => {
         // at least has these keys
         res.body.bike.should.include.all.keys(['id', 'name', 'brand', 'year', 'type']);
 
+        // test parameters types
         res.body.bike.id.should.be.a('string');
         res.body.bike.name.should.be.a('string');
         res.body.bike.brand.should.be.a('string');
@@ -278,6 +280,7 @@ describe('/DELETE delete bike', () => {
         // at least has these keys
         res.body.bike.should.include.all.keys(['id', 'name', 'brand', 'year', 'type']);
 
+        // test parameters types
         res.body.bike.id.should.be.a('string');
         res.body.bike.name.should.be.a('string');
         res.body.bike.brand.should.be.a('string');
