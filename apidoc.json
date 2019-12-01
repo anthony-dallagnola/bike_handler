@@ -1,0 +1,5 @@
+{
+  "name": "Bike API",
+  "version": "1.0.0",
+  "description": "API to handle bike management. The API can be used to create, update, read one, read all, delete a bike."
+}

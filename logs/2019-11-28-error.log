@@ -1,0 +1,96 @@
+2019-11-28 08:09:46 [1] error: error reading bike{
+  "_error": {
+    "error": 0,
+    "message": "id parameter is not UUID conform"
+  }
+}
+2019-11-28 08:09:46 [1] error: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 400 67 - 1.909 ms
+{}
+2019-11-28 08:09:46 [3] error: error creating new bike{
+  "_error": {
+    "error": 0,
+    "message": "bike parameters requirements are not met"
+  }
+}
+2019-11-28 08:09:46 [3] error: POST /bike/create 400 75 - 1.434 ms
+{}
+2019-11-28 08:09:46 [4] error: error creating new bike{
+  "_error": {
+    "error": 0,
+    "message": "bike parameters requirements are not met"
+  }
+}
+2019-11-28 08:09:46 [4] error: POST /bike/create 400 75 - 1.565 ms
+{}
+2019-11-28 08:10:07 [1] error: error reading bike{
+  "_error": {
+    "error": 0,
+    "message": "id parameter is not UUID conform"
+  }
+}
+2019-11-28 08:10:07 [1] error: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 400 67 - 1.787 ms
+{}
+2019-11-28 08:10:07 [3] error: error creating new bike{
+  "_error": {
+    "error": 0,
+    "message": "bike parameters requirements are not met"
+  }
+}
+2019-11-28 08:10:07 [3] error: POST /bike/create 400 75 - 1.693 ms
+{}
+2019-11-28 08:10:07 [4] error: error creating new bike{
+  "_error": {
+    "error": 0,
+    "message": "bike parameters requirements are not met"
+  }
+}
+2019-11-28 08:10:07 [4] error: POST /bike/create 400 75 - 2.021 ms
+{}
+2019-11-28 08:10:54 [1] error: error reading bike{
+  "_error": {
+    "error": 0,
+    "message": "id parameter is not UUID conform"
+  }
+}
+2019-11-28 08:10:54 [1] error: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 400 67 - 1.686 ms
+{}
+2019-11-28 08:10:54 [3] error: error creating new bike{
+  "_error": {
+    "error": 0,
+    "message": "bike parameters requirements are not met"
+  }
+}
+2019-11-28 08:10:54 [3] error: POST /bike/create 400 75 - 1.403 ms
+{}
+2019-11-28 08:10:54 [4] error: error creating new bike{
+  "_error": {
+    "error": 0,
+    "message": "bike parameters requirements are not met"
+  }
+}
+2019-11-28 08:10:54 [4] error: POST /bike/create 400 75 - 1.182 ms
+{}
+2019-11-28 08:11:18 [1] error: error reading bike{
+  "_error": {
+    "error": 0,
+    "message": "id parameter is not UUID conform"
+  }
+}
+2019-11-28 08:11:18 [1] error: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 400 67 - 1.745 ms
+{}
+2019-11-28 08:11:18 [3] error: error creating new bike{
+  "_error": {
+    "error": 0,
+    "message": "bike parameters requirements are not met"
+  }
+}
+2019-11-28 08:11:18 [3] error: POST /bike/create 400 75 - 1.413 ms
+{}
+2019-11-28 08:11:18 [4] error: error creating new bike{
+  "_error": {
+    "error": 0,
+    "message": "bike parameters requirements are not met"
+  }
+}
+2019-11-28 08:11:18 [4] error: POST /bike/create 400 75 - 1.213 ms
+{}

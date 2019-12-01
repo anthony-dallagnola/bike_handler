@@ -6,6 +6,7 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const loggerMorgan = require('morgan');
 const httpContext = require('express-http-context');
+// require('./config/winston');
 
 const { FILE } = require('./config/constants')
 const fs = require('fs');
@@ -105,7 +106,7 @@ app.use(function (req, res, next) {
 
 
 // routes 
-app.use('/', indexRouter);
+app.use('/bike', indexRouter);
 
 
 

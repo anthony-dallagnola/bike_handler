@@ -1,0 +1,2763 @@
+2019-11-27 08:06:47 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:42745",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 08:06:47 [0] info: start req: GET /bike/readAll{}
+2019-11-27 08:06:47 [0] info: GET /bike/readAll 200 717 - 5.622 ms
+{}
+2019-11-27 08:06:47 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:35435",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 08:06:47 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 08:06:47 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.973 ms
+{}
+2019-11-27 08:07:27 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:32889",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 08:07:27 [0] info: start req: GET /bike/readAll{}
+2019-11-27 08:07:27 [0] info: GET /bike/readAll 200 717 - 5.936 ms
+{}
+2019-11-27 08:07:27 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:36267",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 08:07:27 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 08:07:27 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.686 ms
+{}
+2019-11-27 08:07:35 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:39109",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 08:07:35 [0] info: start req: GET /bike/readAll{}
+2019-11-27 08:07:35 [0] info: GET /bike/readAll 200 717 - 4.902 ms
+{}
+2019-11-27 08:07:35 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:40255",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 08:07:35 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 08:07:35 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.414 ms
+{}
+2019-11-27 13:37:47 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:44937",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 13:37:47 [0] info: start req: GET /bike/readAll{}
+2019-11-27 13:37:47 [0] info: GET /bike/readAll 200 717 - 8.773 ms
+{}
+2019-11-27 13:37:47 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:39859",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 13:37:47 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 13:37:47 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 2.703 ms
+{}
+2019-11-27 14:22:01 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:38841",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:22:01 [0] info: start req: GET /bike/readAll{}
+2019-11-27 14:22:01 [0] info: GET /bike/readAll 200 717 - 5.189 ms
+{}
+2019-11-27 14:22:01 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:41529",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:22:01 [1] info: start req: GET /bike/read/[object%20Object]{}
+2019-11-27 14:22:01 [1] error: bike doesn't exist{
+  "_error": "bike doesn't exist"
+}
+2019-11-27 14:22:01 [1] error: GET /bike/read/[object%20Object] 404 - - 2.135 ms
+{}
+2019-11-27 14:22:18 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:40993",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:22:18 [0] info: start req: GET /bike/readAll{}
+2019-11-27 14:22:18 [0] info: GET /bike/readAll 200 717 - 5.229 ms
+{}
+2019-11-27 14:22:18 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:34651",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:22:18 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 14:22:18 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.854 ms
+{}
+2019-11-27 14:22:28 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:38491",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:22:28 [0] info: start req: GET /bike/readAll{}
+2019-11-27 14:22:28 [0] info: GET /bike/readAll 200 717 - 5.964 ms
+{}
+2019-11-27 14:22:28 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:37493",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:22:28 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 14:22:28 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.346 ms
+{}
+2019-11-27 14:22:43 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:33019",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:22:43 [0] info: start req: GET /bike/readAll{}
+2019-11-27 14:22:43 [0] info: GET /bike/readAll 200 717 - 5.134 ms
+{}
+2019-11-27 14:22:43 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:35359",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:22:43 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 14:22:43 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.668 ms
+{}
+2019-11-27 14:34:34 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:42523",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:34:34 [0] info: start req: GET /bike/readAll{}
+2019-11-27 14:34:34 [0] info: GET /bike/readAll 200 717 - 12.140 ms
+{}
+2019-11-27 14:34:34 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:46401",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:34:34 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 14:34:34 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 4.338 ms
+{}
+2019-11-27 14:34:57 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:40151",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:34:57 [0] info: start req: GET /bike/readAll{}
+2019-11-27 14:34:57 [0] info: GET /bike/readAll 200 717 - 5.023 ms
+{}
+2019-11-27 14:34:57 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:41157",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:34:57 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 14:34:57 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.549 ms
+{}
+2019-11-27 14:35:20 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:37287",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:35:20 [0] info: start req: GET /bike/readAll{}
+2019-11-27 14:35:20 [0] info: GET /bike/readAll 200 717 - 5.035 ms
+{}
+2019-11-27 14:35:20 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:36197",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:35:20 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 14:35:20 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.713 ms
+{}
+2019-11-27 14:36:53 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:38277",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:36:53 [0] info: start req: GET /bike/readAll{}
+2019-11-27 14:36:53 [0] info: GET /bike/readAll 200 717 - 10.931 ms
+{}
+2019-11-27 14:36:53 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:37185",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:36:53 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 14:36:53 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 3.625 ms
+{}
+2019-11-27 14:36:53 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:40729",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "68",
+    "connection": "close"
+  }
+}
+2019-11-27 14:36:53 [2] info: start req: POST /bike/create{}
+2019-11-27 14:36:53 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "name"
+    }
+  }
+}
+2019-11-27 14:36:53 [2] info: POST /bike/create 200 103 - 23.912 ms
+{}
+2019-11-27 14:39:34 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:38027",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:39:34 [0] info: start req: GET /bike/readAll{}
+2019-11-27 14:39:34 [0] info: GET /bike/readAll 200 717 - 4.760 ms
+{}
+2019-11-27 14:39:34 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:36851",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:39:34 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 14:39:34 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.651 ms
+{}
+2019-11-27 14:39:34 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:33265",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "68",
+    "connection": "close"
+  }
+}
+2019-11-27 14:39:34 [2] info: start req: POST /bike/create{}
+2019-11-27 14:39:34 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "name"
+    }
+  }
+}
+2019-11-27 14:39:34 [2] info: POST /bike/create 200 103 - 9.291 ms
+{}
+2019-11-27 14:40:19 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:42251",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:40:19 [0] info: start req: GET /bike/readAll{}
+2019-11-27 14:40:19 [0] info: GET /bike/readAll 200 717 - 4.680 ms
+{}
+2019-11-27 14:40:19 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:36103",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:40:19 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 14:40:19 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.366 ms
+{}
+2019-11-27 14:40:19 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:34679",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "68",
+    "connection": "close"
+  }
+}
+2019-11-27 14:40:19 [2] info: start req: POST /bike/create{}
+2019-11-27 14:40:19 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "name"
+    }
+  }
+}
+2019-11-27 14:40:19 [2] info: POST /bike/create 200 112 - 7.640 ms
+{}
+2019-11-27 14:43:51 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:38429",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:43:51 [0] info: start req: GET /bike/readAll{}
+2019-11-27 14:43:51 [0] info: GET /bike/readAll 200 717 - 10.223 ms
+{}
+2019-11-27 14:43:51 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:36983",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:43:51 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 14:43:51 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 3.751 ms
+{}
+2019-11-27 14:43:51 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:34491",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "68",
+    "connection": "close"
+  }
+}
+2019-11-27 14:43:51 [2] info: start req: POST /bike/create{}
+2019-11-27 14:43:51 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "name"
+    }
+  }
+}
+2019-11-27 14:43:51 [2] info: POST /bike/create 200 112 - 18.463 ms
+{}
+2019-11-27 14:45:27 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:46617",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:45:27 [0] info: start req: GET /bike/readAll{}
+2019-11-27 14:45:27 [0] info: GET /bike/readAll 200 717 - 4.843 ms
+{}
+2019-11-27 14:45:27 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:36933",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:45:27 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 14:45:27 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.398 ms
+{}
+2019-11-27 14:45:27 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:43667",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "68",
+    "connection": "close"
+  }
+}
+2019-11-27 14:45:27 [2] info: start req: POST /bike/create{}
+2019-11-27 14:45:27 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "name"
+    }
+  }
+}
+2019-11-27 14:45:27 [2] info: POST /bike/create 200 112 - 7.821 ms
+{}
+2019-11-27 14:45:38 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:46425",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:45:38 [0] info: start req: GET /bike/readAll{}
+2019-11-27 14:45:38 [0] info: GET /bike/readAll 200 717 - 5.149 ms
+{}
+2019-11-27 14:45:38 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:38481",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:45:38 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 14:45:38 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.363 ms
+{}
+2019-11-27 14:45:38 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:40967",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "68",
+    "connection": "close"
+  }
+}
+2019-11-27 14:45:38 [2] info: start req: POST /bike/create{}
+2019-11-27 14:45:38 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "name"
+    }
+  }
+}
+2019-11-27 14:45:38 [2] info: POST /bike/create 200 112 - 8.315 ms
+{}
+2019-11-27 14:45:43 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:44333",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:45:43 [0] info: start req: GET /bike/readAll{}
+2019-11-27 14:45:43 [0] info: GET /bike/readAll 200 717 - 4.814 ms
+{}
+2019-11-27 14:45:43 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:41789",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:45:43 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 14:45:43 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.691 ms
+{}
+2019-11-27 14:45:43 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:37829",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "68",
+    "connection": "close"
+  }
+}
+2019-11-27 14:45:43 [2] info: start req: POST /bike/create{}
+2019-11-27 14:45:43 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "name"
+    }
+  }
+}
+2019-11-27 14:45:43 [2] info: POST /bike/create 200 112 - 8.627 ms
+{}
+2019-11-27 14:46:35 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:34367",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:46:35 [0] info: start req: GET /bike/readAll{}
+2019-11-27 14:46:35 [0] info: GET /bike/readAll 200 717 - 4.891 ms
+{}
+2019-11-27 14:46:35 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:40551",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:46:35 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 14:46:35 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.667 ms
+{}
+2019-11-27 14:46:35 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:33037",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "68",
+    "connection": "close"
+  }
+}
+2019-11-27 14:46:35 [2] info: start req: POST /bike/create{}
+2019-11-27 14:46:35 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "name"
+    }
+  }
+}
+2019-11-27 14:46:35 [2] info: POST /bike/create 200 112 - 7.850 ms
+{}
+2019-11-27 14:46:45 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:36255",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:46:45 [0] info: start req: GET /bike/readAll{}
+2019-11-27 14:46:45 [0] info: GET /bike/readAll 200 717 - 5.171 ms
+{}
+2019-11-27 14:46:45 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:46479",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:46:45 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 14:46:45 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.470 ms
+{}
+2019-11-27 14:46:45 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:42829",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "68",
+    "connection": "close"
+  }
+}
+2019-11-27 14:46:45 [2] info: start req: POST /bike/create{}
+2019-11-27 14:46:45 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "name"
+    }
+  }
+}
+2019-11-27 14:46:45 [2] info: POST /bike/create 200 112 - 8.077 ms
+{}
+2019-11-27 14:50:15 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:43413",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:50:15 [0] info: start req: GET /bike/readAll{}
+2019-11-27 14:50:15 [0] info: GET /bike/readAll 200 717 - 5.335 ms
+{}
+2019-11-27 14:50:15 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:32903",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:50:15 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 14:50:15 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.986 ms
+{}
+2019-11-27 14:50:15 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:35925",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "68",
+    "connection": "close"
+  }
+}
+2019-11-27 14:50:15 [2] info: start req: POST /bike/create{}
+2019-11-27 14:50:15 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "name"
+    }
+  }
+}
+2019-11-27 14:50:15 [2] info: POST /bike/create 200 112 - 8.477 ms
+{}
+2019-11-27 14:50:25 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:39935",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:50:25 [0] info: start req: GET /bike/readAll{}
+2019-11-27 14:50:25 [0] info: GET /bike/readAll 200 717 - 5.852 ms
+{}
+2019-11-27 14:50:25 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:36743",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:50:25 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 14:50:25 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.406 ms
+{}
+2019-11-27 14:50:25 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:39741",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "68",
+    "connection": "close"
+  }
+}
+2019-11-27 14:50:25 [2] info: start req: POST /bike/create{}
+2019-11-27 14:50:25 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "name"
+    }
+  }
+}
+2019-11-27 14:50:25 [2] info: POST /bike/create 200 112 - 7.791 ms
+{}
+2019-11-27 14:50:41 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:34497",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:50:41 [0] info: start req: GET /bike/readAll{}
+2019-11-27 14:50:41 [0] info: GET /bike/readAll 200 717 - 4.901 ms
+{}
+2019-11-27 14:50:41 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:34623",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:50:41 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 14:50:41 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.402 ms
+{}
+2019-11-27 14:50:41 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:43937",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "68",
+    "connection": "close"
+  }
+}
+2019-11-27 14:50:41 [2] info: start req: POST /bike/create{}
+2019-11-27 14:50:41 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "name"
+    }
+  }
+}
+2019-11-27 14:50:41 [2] info: POST /bike/create 200 112 - 7.457 ms
+{}
+2019-11-27 14:50:59 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:33819",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:50:59 [0] info: start req: GET /bike/readAll{}
+2019-11-27 14:50:59 [0] info: GET /bike/readAll 200 717 - 4.643 ms
+{}
+2019-11-27 14:50:59 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:35721",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:50:59 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 14:50:59 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.539 ms
+{}
+2019-11-27 14:50:59 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:43739",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "68",
+    "connection": "close"
+  }
+}
+2019-11-27 14:50:59 [2] info: start req: POST /bike/create{}
+2019-11-27 14:50:59 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "name"
+    }
+  }
+}
+2019-11-27 14:50:59 [2] info: POST /bike/create 200 112 - 7.626 ms
+{}
+2019-11-27 14:51:37 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:40983",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:51:37 [0] info: start req: GET /bike/readAll{}
+2019-11-27 14:51:37 [0] info: GET /bike/readAll 200 717 - 4.691 ms
+{}
+2019-11-27 14:51:37 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:46225",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:51:37 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 14:51:37 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.386 ms
+{}
+2019-11-27 14:51:37 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:37867",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "68",
+    "connection": "close"
+  }
+}
+2019-11-27 14:51:37 [2] info: start req: POST /bike/create{}
+2019-11-27 14:51:37 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "name"
+    }
+  }
+}
+2019-11-27 14:51:37 [2] info: POST /bike/create 200 112 - 8.406 ms
+{}
+2019-11-27 14:52:04 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:42799",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:52:04 [0] info: start req: GET /bike/readAll{}
+2019-11-27 14:52:04 [0] info: GET /bike/readAll 200 717 - 7.461 ms
+{}
+2019-11-27 14:52:04 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:43535",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:52:04 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 14:52:04 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 2.365 ms
+{}
+2019-11-27 14:52:04 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:37835",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "68",
+    "connection": "close"
+  }
+}
+2019-11-27 14:52:04 [2] info: start req: POST /bike/create{}
+2019-11-27 14:52:04 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "name"
+    }
+  }
+}
+2019-11-27 14:52:04 [2] info: POST /bike/create 200 112 - 12.996 ms
+{}
+2019-11-27 14:52:21 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:35867",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:52:21 [0] info: start req: GET /bike/readAll{}
+2019-11-27 14:52:21 [0] info: GET /bike/readAll 200 717 - 4.937 ms
+{}
+2019-11-27 14:52:21 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:46551",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:52:21 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 14:52:21 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.398 ms
+{}
+2019-11-27 14:52:21 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:38891",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "68",
+    "connection": "close"
+  }
+}
+2019-11-27 14:52:21 [2] info: start req: POST /bike/create{}
+2019-11-27 14:52:21 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "name"
+    }
+  }
+}
+2019-11-27 14:52:21 [2] info: POST /bike/create 200 112 - 8.072 ms
+{}
+2019-11-27 14:52:40 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:33645",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:52:40 [0] info: start req: GET /bike/readAll{}
+2019-11-27 14:52:40 [0] info: GET /bike/readAll 200 717 - 4.867 ms
+{}
+2019-11-27 14:52:40 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:34107",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:52:40 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 14:52:40 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.613 ms
+{}
+2019-11-27 14:52:40 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:37475",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "68",
+    "connection": "close"
+  }
+}
+2019-11-27 14:52:40 [2] info: start req: POST /bike/create{}
+2019-11-27 14:52:40 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "name"
+    }
+  }
+}
+2019-11-27 14:52:40 [2] info: POST /bike/create 200 112 - 7.322 ms
+{}
+2019-11-27 14:54:07 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:41927",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:54:07 [0] info: start req: GET /bike/readAll{}
+2019-11-27 14:54:07 [0] info: GET /bike/readAll 200 717 - 9.733 ms
+{}
+2019-11-27 14:54:08 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:45597",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:54:08 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 14:54:08 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 2.965 ms
+{}
+2019-11-27 14:54:08 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:37717",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "68",
+    "connection": "close"
+  }
+}
+2019-11-27 14:54:08 [2] info: start req: POST /bike/create{}
+2019-11-27 14:54:08 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "name"
+    }
+  }
+}
+2019-11-27 14:54:08 [2] info: POST /bike/create 200 112 - 17.748 ms
+{}
+2019-11-27 14:54:27 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:38627",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:54:27 [0] info: start req: GET /bike/readAll{}
+2019-11-27 14:54:27 [0] info: GET /bike/readAll 200 717 - 5.156 ms
+{}
+2019-11-27 14:54:27 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:34461",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:54:27 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 14:54:27 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.445 ms
+{}
+2019-11-27 14:54:27 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:37847",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "68",
+    "connection": "close"
+  }
+}
+2019-11-27 14:54:27 [2] info: start req: POST /bike/create{}
+2019-11-27 14:54:27 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "name"
+    }
+  }
+}
+2019-11-27 14:54:27 [2] info: POST /bike/create 200 112 - 8.176 ms
+{}
+2019-11-27 14:55:06 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:36499",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:55:06 [0] info: start req: GET /bike/readAll{}
+2019-11-27 14:55:06 [0] info: GET /bike/readAll 200 717 - 5.622 ms
+{}
+2019-11-27 14:55:06 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:39445",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 14:55:06 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 14:55:06 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.532 ms
+{}
+2019-11-27 14:55:06 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:40821",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "68",
+    "connection": "close"
+  }
+}
+2019-11-27 14:55:06 [2] info: start req: POST /bike/create{}
+2019-11-27 14:55:06 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "name"
+    }
+  }
+}
+2019-11-27 14:55:06 [2] info: POST /bike/create 200 112 - 8.848 ms
+{}
+2019-11-27 15:03:55 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:41273",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 15:03:55 [0] info: start req: GET /bike/readAll{}
+2019-11-27 15:03:55 [0] info: GET /bike/readAll 200 717 - 7.422 ms
+{}
+2019-11-27 15:03:55 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:44213",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 15:03:55 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 15:03:55 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 2.387 ms
+{}
+2019-11-27 15:03:55 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:44565",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "68",
+    "connection": "close"
+  }
+}
+2019-11-27 15:03:55 [2] info: start req: POST /bike/create{}
+2019-11-27 15:03:55 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "name"
+    }
+  }
+}
+2019-11-27 15:03:55 [2] info: POST /bike/create 200 112 - 15.570 ms
+{}
+2019-11-27 15:04:14 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:33493",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 15:04:14 [0] info: start req: GET /bike/readAll{}
+2019-11-27 15:04:14 [0] info: GET /bike/readAll 200 717 - 5.276 ms
+{}
+2019-11-27 15:04:14 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:32949",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 15:04:14 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 15:04:14 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.408 ms
+{}
+2019-11-27 15:04:14 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:35011",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "68",
+    "connection": "close"
+  }
+}
+2019-11-27 15:04:14 [2] info: start req: POST /bike/create{}
+2019-11-27 15:04:14 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "name"
+    }
+  }
+}
+2019-11-27 15:04:14 [2] info: POST /bike/create 200 112 - 7.371 ms
+{}
+2019-11-27 15:05:09 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:46591",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 15:05:09 [0] info: start req: GET /bike/readAll{}
+2019-11-27 15:05:09 [0] info: GET /bike/readAll 200 717 - 5.702 ms
+{}
+2019-11-27 15:05:09 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:33021",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 15:05:09 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 15:05:09 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.622 ms
+{}
+2019-11-27 15:05:09 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:36965",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "68",
+    "connection": "close"
+  }
+}
+2019-11-27 15:05:09 [2] info: start req: POST /bike/create{}
+2019-11-27 15:05:09 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "name"
+    }
+  }
+}
+2019-11-27 15:05:09 [2] info: POST /bike/create 200 112 - 7.936 ms
+{}
+2019-11-27 15:05:18 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:34627",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 15:05:18 [0] info: start req: GET /bike/readAll{}
+2019-11-27 15:05:18 [0] info: GET /bike/readAll 200 717 - 5.213 ms
+{}
+2019-11-27 15:05:18 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:38873",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 15:05:18 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 15:05:18 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.596 ms
+{}
+2019-11-27 15:05:18 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:35293",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "68",
+    "connection": "close"
+  }
+}
+2019-11-27 15:05:18 [2] info: start req: POST /bike/create{}
+2019-11-27 15:05:18 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "name"
+    }
+  }
+}
+2019-11-27 15:05:18 [2] info: POST /bike/create 200 112 - 7.571 ms
+{}
+2019-11-27 15:05:26 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:35165",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 15:05:26 [0] info: start req: GET /bike/readAll{}
+2019-11-27 15:05:26 [0] info: GET /bike/readAll 200 717 - 5.278 ms
+{}
+2019-11-27 15:05:26 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:39275",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 15:05:26 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 15:05:26 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.509 ms
+{}
+2019-11-27 15:05:26 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:34375",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "68",
+    "connection": "close"
+  }
+}
+2019-11-27 15:05:26 [2] info: start req: POST /bike/create{}
+2019-11-27 15:05:26 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "name"
+    }
+  }
+}
+2019-11-27 15:05:26 [2] info: POST /bike/create 200 112 - 7.588 ms
+{}
+2019-11-27 18:15:51 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:42505",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 18:15:51 [0] info: start req: GET /bike/readAll{}
+2019-11-27 18:15:51 [0] info: GET /bike/readAll 200 717 - 4.777 ms
+{}
+2019-11-27 18:15:51 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:37063",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 18:15:51 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 18:15:51 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.408 ms
+{}
+2019-11-27 18:15:51 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:41009",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "68",
+    "connection": "close"
+  }
+}
+2019-11-27 18:15:51 [2] info: start req: POST /bike/create{}
+2019-11-27 18:15:51 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "name"
+    }
+  }
+}
+2019-11-27 18:15:51 [2] info: POST /bike/create 200 112 - 11.224 ms
+{}
+2019-11-27 18:18:34 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:42521",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 18:18:34 [0] info: start req: GET /bike/readAll{}
+2019-11-27 18:18:34 [0] info: GET /bike/readAll 200 717 - 5.454 ms
+{}
+2019-11-27 18:18:34 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:36849",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 18:18:34 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 18:18:34 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.377 ms
+{}
+2019-11-27 18:18:34 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:32847",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "68",
+    "connection": "close"
+  }
+}
+2019-11-27 18:18:34 [2] info: start req: POST /bike/create{}
+2019-11-27 18:18:34 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "name"
+    }
+  }
+}
+2019-11-27 18:18:34 [2] info: POST /bike/create 200 112 - 11.646 ms
+{}
+2019-11-27 18:19:20 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:35275",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 18:19:20 [0] info: start req: GET /bike/readAll{}
+2019-11-27 18:19:20 [0] info: GET /bike/readAll 200 717 - 5.399 ms
+{}
+2019-11-27 18:19:20 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:38299",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 18:19:20 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 18:19:20 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.761 ms
+{}
+2019-11-27 18:19:20 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:46563",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "68",
+    "connection": "close"
+  }
+}
+2019-11-27 18:19:20 [2] info: start req: POST /bike/create{}
+2019-11-27 18:19:20 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "name"
+    }
+  }
+}
+2019-11-27 18:19:20 [2] info: POST /bike/create 200 112 - 7.483 ms
+{}
+2019-11-27 18:19:35 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:35641",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 18:19:35 [0] info: start req: GET /bike/readAll{}
+2019-11-27 18:19:35 [0] info: GET /bike/readAll 200 717 - 5.325 ms
+{}
+2019-11-27 18:19:35 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:34407",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 18:19:35 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 18:19:35 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.703 ms
+{}
+2019-11-27 18:19:35 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:38615",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "68",
+    "connection": "close"
+  }
+}
+2019-11-27 18:19:35 [2] info: start req: POST /bike/create{}
+2019-11-27 18:19:35 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "name"
+    }
+  }
+}
+2019-11-27 18:19:35 [2] info: POST /bike/create 200 112 - 11.023 ms
+{}
+2019-11-27 18:20:00 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:46231",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 18:20:00 [0] info: start req: GET /bike/readAll{}
+2019-11-27 18:20:00 [0] info: GET /bike/readAll 200 717 - 5.512 ms
+{}
+2019-11-27 18:20:00 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:46843",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 18:20:00 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 18:20:00 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.579 ms
+{}
+2019-11-27 18:20:00 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:42861",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "68",
+    "connection": "close"
+  }
+}
+2019-11-27 18:20:00 [2] info: start req: POST /bike/create{}
+2019-11-27 18:20:00 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "name"
+    }
+  }
+}
+2019-11-27 18:20:00 [2] info: POST /bike/create 200 112 - 8.543 ms
+{}
+2019-11-27 18:20:32 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:34487",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 18:20:32 [0] info: start req: GET /bike/readAll{}
+2019-11-27 18:20:32 [0] info: GET /bike/readAll 200 717 - 4.980 ms
+{}
+2019-11-27 18:20:32 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:41035",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 18:20:32 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 18:20:32 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.421 ms
+{}
+2019-11-27 18:20:32 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:44435",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "68",
+    "connection": "close"
+  }
+}
+2019-11-27 18:20:32 [2] info: start req: POST /bike/create{}
+2019-11-27 18:20:32 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "name"
+    }
+  }
+}
+2019-11-27 18:20:32 [2] info: POST /bike/create 200 112 - 7.440 ms
+{}
+2019-11-27 18:22:08 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:34025",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 18:22:08 [0] info: start req: GET /bike/readAll{}
+2019-11-27 18:22:08 [0] info: GET /bike/readAll 200 717 - 5.561 ms
+{}
+2019-11-27 18:22:08 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:34195",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 18:22:08 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 18:22:08 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.428 ms
+{}
+2019-11-27 18:22:08 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:34627",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "72",
+    "connection": "close"
+  }
+}
+2019-11-27 18:22:08 [2] info: start req: POST /bike/create{}
+2019-11-27 18:22:08 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "mountain"
+    }
+  }
+}
+2019-11-27 18:22:08 [2] info: POST /bike/create 200 116 - 9.147 ms
+{}
+2019-11-27 18:23:16 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:46163",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 18:23:16 [0] info: start req: GET /bike/readAll{}
+2019-11-27 18:23:16 [0] info: GET /bike/readAll 200 717 - 4.676 ms
+{}
+2019-11-27 18:23:16 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:38569",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 18:23:16 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 18:23:16 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.360 ms
+{}
+2019-11-27 18:23:16 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:36831",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "72",
+    "connection": "close"
+  }
+}
+2019-11-27 18:23:16 [2] info: start req: POST /bike/create{}
+2019-11-27 18:23:16 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "mountain"
+    }
+  }
+}
+2019-11-27 18:23:16 [2] info: POST /bike/create 200 116 - 15.734 ms
+{}
+2019-11-27 18:24:13 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:43697",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 18:24:13 [0] info: start req: GET /bike/readAll{}
+2019-11-27 18:24:13 [0] info: GET /bike/readAll 200 717 - 4.616 ms
+{}
+2019-11-27 18:24:13 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:36611",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 18:24:13 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 18:24:13 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.400 ms
+{}
+2019-11-27 18:24:13 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:45859",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "72",
+    "connection": "close"
+  }
+}
+2019-11-27 18:24:13 [2] info: start req: POST /bike/create{}
+2019-11-27 18:24:13 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "mountain"
+    }
+  }
+}
+2019-11-27 18:24:13 [2] info: POST /bike/create 200 116 - 7.221 ms
+{}
+2019-11-27 18:24:17 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:36855",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 18:24:17 [0] info: start req: GET /bike/readAll{}
+2019-11-27 18:24:17 [0] info: GET /bike/readAll 200 717 - 5.501 ms
+{}
+2019-11-27 18:24:17 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:36577",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 18:24:17 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 18:24:17 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.341 ms
+{}
+2019-11-27 18:24:17 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:40055",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "72",
+    "connection": "close"
+  }
+}
+2019-11-27 18:24:17 [2] info: start req: POST /bike/create{}
+2019-11-27 18:24:17 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "mountain"
+    }
+  }
+}
+2019-11-27 18:24:17 [2] info: POST /bike/create 200 116 - 7.069 ms
+{}
+2019-11-27 18:24:18 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:36055",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 18:24:18 [0] info: start req: GET /bike/readAll{}
+2019-11-27 18:24:18 [0] info: GET /bike/readAll 200 717 - 4.755 ms
+{}
+2019-11-27 18:24:18 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:46321",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 18:24:18 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 18:24:18 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.338 ms
+{}
+2019-11-27 18:24:18 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:42383",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "72",
+    "connection": "close"
+  }
+}
+2019-11-27 18:24:18 [2] info: start req: POST /bike/create{}
+2019-11-27 18:24:18 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "mountain"
+    }
+  }
+}
+2019-11-27 18:24:18 [2] info: POST /bike/create 200 116 - 7.330 ms
+{}
+2019-11-27 18:24:19 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:33903",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 18:24:19 [0] info: start req: GET /bike/readAll{}
+2019-11-27 18:24:19 [0] info: GET /bike/readAll 200 717 - 4.608 ms
+{}
+2019-11-27 18:24:19 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:42385",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 18:24:19 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 18:24:19 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.321 ms
+{}
+2019-11-27 18:24:19 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:38487",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "72",
+    "connection": "close"
+  }
+}
+2019-11-27 18:24:19 [2] info: start req: POST /bike/create{}
+2019-11-27 18:24:19 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "mountain"
+    }
+  }
+}
+2019-11-27 18:24:19 [2] info: POST /bike/create 200 116 - 8.777 ms
+{}
+2019-11-27 18:24:29 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:37935",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 18:24:29 [0] info: start req: GET /bike/readAll{}
+2019-11-27 18:24:29 [0] info: GET /bike/readAll 200 717 - 5.142 ms
+{}
+2019-11-27 18:24:29 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:43721",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 18:24:29 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 18:24:29 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.607 ms
+{}
+2019-11-27 18:24:29 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:36735",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "72",
+    "connection": "close"
+  }
+}
+2019-11-27 18:24:29 [2] info: start req: POST /bike/create{}
+2019-11-27 18:24:29 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "mountain"
+    }
+  }
+}
+2019-11-27 18:24:29 [2] info: POST /bike/create 200 116 - 7.525 ms
+{}
+2019-11-27 18:26:50 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:40415",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 18:26:50 [0] info: start req: GET /bike/readAll{}
+2019-11-27 18:26:50 [0] info: GET /bike/readAll 200 717 - 4.874 ms
+{}
+2019-11-27 18:26:50 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:35315",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 18:26:50 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 18:26:50 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.337 ms
+{}
+2019-11-27 18:26:50 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:39005",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "72",
+    "connection": "close"
+  }
+}
+2019-11-27 18:26:50 [2] info: start req: POST /bike/create{}
+2019-11-27 18:26:50 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "mountain"
+    }
+  }
+}
+2019-11-27 18:26:50 [2] info: POST /bike/create 200 116 - 7.351 ms
+{}
+2019-11-27 18:26:52 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:41097",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 18:26:52 [0] info: start req: GET /bike/readAll{}
+2019-11-27 18:26:52 [0] info: GET /bike/readAll 200 717 - 5.134 ms
+{}
+2019-11-27 18:26:52 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:45149",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 18:26:52 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 18:26:52 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.663 ms
+{}
+2019-11-27 18:26:52 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:43431",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "72",
+    "connection": "close"
+  }
+}
+2019-11-27 18:26:52 [2] info: start req: POST /bike/create{}
+2019-11-27 18:26:52 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "mountain"
+    }
+  }
+}
+2019-11-27 18:26:52 [2] info: POST /bike/create 200 116 - 7.911 ms
+{}
+2019-11-27 18:27:03 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:34895",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 18:27:03 [0] info: start req: GET /bike/readAll{}
+2019-11-27 18:27:03 [0] info: GET /bike/readAll 200 717 - 4.740 ms
+{}
+2019-11-27 18:27:03 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:38477",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 18:27:03 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 18:27:03 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.392 ms
+{}
+2019-11-27 18:27:03 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:43709",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "72",
+    "connection": "close"
+  }
+}
+2019-11-27 18:27:03 [2] info: start req: POST /bike/create{}
+2019-11-27 18:27:03 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "mountain"
+    }
+  }
+}
+2019-11-27 18:27:03 [2] info: POST /bike/create 200 116 - 7.304 ms
+{}
+2019-11-27 21:27:56 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:45349",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 21:27:56 [0] info: start req: GET /bike/readAll{}
+2019-11-27 21:27:56 [0] info: GET /bike/readAll 200 717 - 5.369 ms
+{}
+2019-11-27 21:27:56 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:41145",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 21:27:56 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 21:27:56 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.401 ms
+{}
+2019-11-27 21:27:56 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:37007",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "72",
+    "connection": "close"
+  }
+}
+2019-11-27 21:27:56 [2] info: start req: POST /bike/create{}
+2019-11-27 21:27:56 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "mountain"
+    }
+  }
+}
+2019-11-27 21:27:56 [2] info: POST /bike/create 200 116 - 12.559 ms
+{}
+2019-11-27 21:29:31 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:34823",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 21:29:31 [0] info: start req: GET /bike/readAll{}
+2019-11-27 21:29:31 [0] info: GET /bike/readAll 200 717 - 7.224 ms
+{}
+2019-11-27 21:29:31 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:44623",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 21:29:31 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 21:29:31 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.730 ms
+{}
+2019-11-27 21:29:31 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:45729",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "72",
+    "connection": "close"
+  }
+}
+2019-11-27 21:29:31 [2] info: start req: POST /bike/create{}
+2019-11-27 21:29:31 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "mountain"
+    }
+  }
+}
+2019-11-27 21:29:31 [2] info: POST /bike/create 200 116 - 9.837 ms
+{}
+2019-11-27 21:30:00 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:44891",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 21:30:00 [0] info: start req: GET /bike/readAll{}
+2019-11-27 21:30:00 [0] info: GET /bike/readAll 200 717 - 5.022 ms
+{}
+2019-11-27 21:30:00 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:44043",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 21:30:00 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 21:30:00 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.499 ms
+{}
+2019-11-27 21:30:00 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:44939",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "72",
+    "connection": "close"
+  }
+}
+2019-11-27 21:30:00 [2] info: start req: POST /bike/create{}
+2019-11-27 21:30:00 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "mountain"
+    }
+  }
+}
+2019-11-27 21:30:00 [2] info: POST /bike/create 200 116 - 7.789 ms
+{}
+2019-11-27 21:30:30 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:45229",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 21:30:30 [0] info: start req: GET /bike/readAll{}
+2019-11-27 21:30:30 [0] info: GET /bike/readAll 200 717 - 8.484 ms
+{}
+2019-11-27 21:30:30 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:38197",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 21:30:30 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 21:30:30 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 2.104 ms
+{}
+2019-11-27 21:30:30 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:45299",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "72",
+    "connection": "close"
+  }
+}
+2019-11-27 21:30:30 [2] info: start req: POST /bike/create{}
+2019-11-27 21:30:30 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "mountain"
+    }
+  }
+}
+2019-11-27 21:30:30 [2] info: POST /bike/create 200 116 - 11.062 ms
+{}
+2019-11-27 21:30:44 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:36797",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 21:30:44 [0] info: start req: GET /bike/readAll{}
+2019-11-27 21:30:44 [0] info: GET /bike/readAll 200 717 - 4.681 ms
+{}
+2019-11-27 21:30:44 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:37887",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 21:30:44 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 21:30:44 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.634 ms
+{}
+2019-11-27 21:30:44 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:33755",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "72",
+    "connection": "close"
+  }
+}
+2019-11-27 21:30:44 [2] info: start req: POST /bike/create{}
+2019-11-27 21:30:44 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "mountain"
+    }
+  }
+}
+2019-11-27 21:30:44 [2] info: POST /bike/create 200 116 - 7.352 ms
+{}
+2019-11-27 21:31:00 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:34655",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 21:31:00 [0] info: start req: GET /bike/readAll{}
+2019-11-27 21:31:01 [0] info: GET /bike/readAll 200 717 - 11.536 ms
+{}
+2019-11-27 21:31:01 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:37469",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 21:31:01 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 21:31:01 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 2.814 ms
+{}
+2019-11-27 21:31:01 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:38149",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "72",
+    "connection": "close"
+  }
+}
+2019-11-27 21:31:01 [2] info: start req: POST /bike/create{}
+2019-11-27 21:31:01 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "mountain"
+    }
+  }
+}
+2019-11-27 21:31:01 [2] info: POST /bike/create 200 116 - 16.112 ms
+{}
+2019-11-27 21:31:38 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:42185",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 21:31:38 [0] info: start req: GET /bike/readAll{}
+2019-11-27 21:31:38 [0] info: GET /bike/readAll 200 717 - 4.774 ms
+{}
+2019-11-27 21:31:38 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:42129",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 21:31:38 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 21:31:38 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.474 ms
+{}
+2019-11-27 21:31:38 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:44567",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "72",
+    "connection": "close"
+  }
+}
+2019-11-27 21:31:38 [2] info: start req: POST /bike/create{}
+2019-11-27 21:31:38 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "mountain"
+    }
+  }
+}
+2019-11-27 21:31:38 [2] info: POST /bike/create 200 116 - 7.490 ms
+{}
+2019-11-27 21:46:18 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:42937",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 21:46:18 [0] info: start req: GET /bike/readAll{}
+2019-11-27 21:46:18 [0] info: GET /bike/readAll 200 717 - 5.340 ms
+{}
+2019-11-27 21:46:18 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:43979",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 21:46:18 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 21:46:18 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.630 ms
+{}
+2019-11-27 21:46:18 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:36843",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "72",
+    "connection": "close"
+  }
+}
+2019-11-27 21:46:18 [2] info: start req: POST /bike/create{}
+2019-11-27 21:46:18 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "mountain"
+    }
+  }
+}
+2019-11-27 21:46:18 [2] info: POST /bike/create 200 116 - 7.733 ms
+{}
+2019-11-27 21:46:18 [3] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:44257",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "2",
+    "connection": "close"
+  }
+}
+2019-11-27 21:46:18 [3] info: start req: POST /bike/create{}
+2019-11-27 21:46:18 [3] error: error creating new bike{
+  "_error": {
+    "error": 0,
+    "message": "bike parameters requirements are not met"
+  }
+}
+2019-11-27 21:46:18 [3] error: POST /bike/create 400 73 - 1.395 ms
+{}
+2019-11-27 21:47:55 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:36737",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 21:47:55 [0] info: start req: GET /bike/readAll{}
+2019-11-27 21:47:55 [0] info: GET /bike/readAll 200 717 - 4.649 ms
+{}
+2019-11-27 21:47:55 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:38343",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 21:47:55 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 21:47:55 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.354 ms
+{}
+2019-11-27 21:47:55 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:42467",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "72",
+    "connection": "close"
+  }
+}
+2019-11-27 21:47:55 [2] info: start req: POST /bike/create{}
+2019-11-27 21:47:55 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "mountain"
+    }
+  }
+}
+2019-11-27 21:47:55 [2] info: POST /bike/create 200 116 - 7.648 ms
+{}
+2019-11-27 21:47:55 [3] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:34235",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "2",
+    "connection": "close"
+  }
+}
+2019-11-27 21:47:55 [3] info: start req: POST /bike/create{}
+2019-11-27 21:47:55 [3] error: error creating new bike{
+  "_error": {
+    "error": 0,
+    "message": "bike parameters requirements are not met"
+  }
+}
+2019-11-27 21:47:55 [3] error: POST /bike/create 400 75 - 1.375 ms
+{}
+2019-11-27 21:48:58 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:36043",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 21:48:58 [0] info: start req: GET /bike/readAll{}
+2019-11-27 21:48:58 [0] info: GET /bike/readAll 200 717 - 4.723 ms
+{}
+2019-11-27 21:48:58 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:44945",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 21:48:58 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 21:48:58 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.498 ms
+{}
+2019-11-27 21:48:58 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:43007",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "72",
+    "connection": "close"
+  }
+}
+2019-11-27 21:48:58 [2] info: start req: POST /bike/create{}
+2019-11-27 21:48:58 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "mountain"
+    }
+  }
+}
+2019-11-27 21:48:58 [2] info: POST /bike/create 200 116 - 7.057 ms
+{}
+2019-11-27 21:48:58 [3] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:38597",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "2",
+    "connection": "close"
+  }
+}
+2019-11-27 21:48:58 [3] info: start req: POST /bike/create{}
+2019-11-27 21:48:58 [3] error: error creating new bike{
+  "_error": {
+    "error": 0,
+    "message": "bike parameters requirements are not met"
+  }
+}
+2019-11-27 21:48:58 [3] error: POST /bike/create 400 75 - 1.362 ms
+{}
+2019-11-27 21:58:51 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:40197",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 21:58:51 [0] info: start req: GET /bike/readAll{}
+2019-11-27 21:58:51 [0] info: GET /bike/readAll 200 717 - 4.758 ms
+{}
+2019-11-27 21:58:51 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:43845",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 21:58:51 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 21:58:51 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.533 ms
+{}
+2019-11-27 21:58:51 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:38833",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "72",
+    "connection": "close"
+  }
+}
+2019-11-27 21:58:51 [2] info: start req: POST /bike/create{}
+2019-11-27 21:58:51 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "mountain"
+    }
+  }
+}
+2019-11-27 21:58:51 [2] info: POST /bike/create 200 116 - 8.423 ms
+{}
+2019-11-27 21:58:51 [3] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:36341",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "2",
+    "connection": "close"
+  }
+}
+2019-11-27 21:58:51 [3] info: start req: POST /bike/create{}
+2019-11-27 21:58:51 [3] error: error creating new bike{
+  "_error": {
+    "error": 0,
+    "message": "bike parameters requirements are not met"
+  }
+}
+2019-11-27 21:58:51 [3] error: POST /bike/create 400 75 - 1.539 ms
+{}
+2019-11-27 21:58:51 [4] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:37279",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "2",
+    "connection": "close"
+  }
+}
+2019-11-27 21:58:51 [4] info: start req: POST /bike/create{}
+2019-11-27 21:58:51 [4] error: error creating new bike{
+  "_error": {
+    "error": 0,
+    "message": "bike parameters requirements are not met"
+  }
+}
+2019-11-27 21:58:51 [4] error: POST /bike/create 400 75 - 1.229 ms
+{}
+2019-11-27 21:59:23 [0] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:41505",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 21:59:23 [0] info: start req: GET /bike/readAll{}
+2019-11-27 21:59:23 [0] info: GET /bike/readAll 200 717 - 4.694 ms
+{}
+2019-11-27 21:59:23 [1] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:45225",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "connection": "close"
+  }
+}
+2019-11-27 21:59:23 [1] info: start req: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6{}
+2019-11-27 21:59:23 [1] info: GET /bike/read/7ef8e968-7d5b-4bbb-9779-5abe4de457b6 200 132 - 1.617 ms
+{}
+2019-11-27 21:59:23 [2] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:37821",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "72",
+    "connection": "close"
+  }
+}
+2019-11-27 21:59:23 [2] info: start req: POST /bike/create{}
+2019-11-27 21:59:23 [2] info: body: {
+  "body": {
+    "bike": {
+      "name": "The best",
+      "brand": "KTM",
+      "year": 2019,
+      "type": "mountain"
+    }
+  }
+}
+2019-11-27 21:59:23 [2] info: POST /bike/create 200 116 - 8.068 ms
+{}
+2019-11-27 21:59:23 [3] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:36701",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "2",
+    "connection": "close"
+  }
+}
+2019-11-27 21:59:23 [3] info: start req: POST /bike/create{}
+2019-11-27 21:59:23 [3] error: error creating new bike{
+  "_error": {
+    "error": 0,
+    "message": "bike parameters requirements are not met"
+  }
+}
+2019-11-27 21:59:23 [3] error: POST /bike/create 400 75 - 1.337 ms
+{}
+2019-11-27 21:59:23 [4] info: headers: {
+  "headers": {
+    "host": "127.0.0.1:45293",
+    "accept-encoding": "gzip, deflate",
+    "user-agent": "node-superagent/3.8.3",
+    "content-type": "application/json",
+    "content-length": "2",
+    "connection": "close"
+  }
+}
+2019-11-27 21:59:23 [4] info: start req: POST /bike/create{}
+2019-11-27 21:59:23 [4] error: error creating new bike{
+  "_error": {
+    "error": 0,
+    "message": "bike parameters requirements are not met"
+  }
+}
+2019-11-27 21:59:23 [4] error: POST /bike/create 400 75 - 1.228 ms
+{}

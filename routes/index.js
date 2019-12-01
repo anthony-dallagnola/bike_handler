@@ -9,9 +9,9 @@ router.get('/', function(req, res, next) {
 
 // path function must be exported in modules/queries.js
 router.post('/create', queries.create);
-router.get('/read/:id', queries.read);
-router.get('/readAll', queries.readAll);
+router.get('/get', queries.get);
+router.get('/getAll', queries.getAll);
 router.patch('/update', queries.update);
-router.delete('/delete/:id', queries.deleteBike);
+router.delete('/delete/:id', queries.delete);
 
 module.exports = router;

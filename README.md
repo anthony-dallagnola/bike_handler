@@ -1,9 +1,18 @@
-Clone the repo
+# Install the server
 
-Install packages if not already installed `npm install`
+* Clone the repository
+* Install packages if not already installed
+  * npm install
 
-Launch the server `node bin/www`
+# Test the server
+* Run the tests
+  * npm test
 
-There are some test curl calls in curl_commands file
+# Read the documentation
+* Generate the documentation, apiDoc must be installed globally `npm i -g apidoc`
+  * ./generateDoc.sh
+* Launch a browser at your folder path + public/apidoc/index.html
 
-Have fun with it
+# Launch the server 
+* Launch the server
+  * npm start
